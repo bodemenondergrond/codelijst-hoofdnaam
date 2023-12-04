@@ -1,0 +1,130 @@
+uri,type,dc.id,collection,notation,prefLabel,altLabel,broader,broaderTransitive,broadMatch,changeNote,closeMatch,definition,editorialNote,exactMatch,example,hiddenLabel,historyNote,inScheme,mappingRelation,note,related,relatedMatch,scopeNote,semanticRelation,topConceptOf
+colt:hoofdnamen,skos:Collection,hoofdnamen,,,Collectie van hoofdnamen.,,,,,,,,,,,,,cs,hoofdnaam,,,,,,
+ct:AF,skos:Concept,AF,colt:hoofdnamen,,afval,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:AA,skos:Concept,AA,colt:hoofdnamen,,amfiboliet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:AB,skos:Concept,AB,colt:hoofdnamen,,andesiet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:AC,skos:Concept,AC,colt:hoofdnamen,,anhydriet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:AD,skos:Concept,AD,colt:hoofdnamen,,ankeriet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:AN,skos:Concept,AN,colt:hoofdnamen,,antropogeen niet vloeistofdicht,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:AV,skos:Concept,AV,colt:hoofdnamen,,antropogeen vloeistofdicht,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:AW,skos:Concept,AW,colt:hoofdnamen,,antropogeen weinig vloeistofdicht,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:AR,skos:Concept,AR,colt:hoofdnamen,,areniet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:AE,skos:Concept,AE,colt:hoofdnamen,,arkose,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:AG,skos:Concept,AG,colt:hoofdnamen,,as,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:AT,skos:Concept,AT,colt:hoofdnamen,,asfalt,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:BK,skos:Concept,BK,colt:hoofdnamen,,baksteen,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:BA,skos:Concept,BA,colt:hoofdnamen,,basalt,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:BB,skos:Concept,BB,colt:hoofdnamen,,bauxiet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:BC,skos:Concept,BC,colt:hoofdnamen,,bentoniet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:BT,skos:Concept,BT,colt:hoofdnamen,,beton,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:BS,skos:Concept,BS,colt:hoofdnamen,,blauwshist,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:CA,skos:Concept,CA,colt:hoofdnamen,,carbonaatfragmenten,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:CT,skos:Concept,CT,colt:hoofdnamen,,chert (gebande),,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:CB,skos:Concept,CB,colt:hoofdnamen,,conglomeraat/breccie,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:DA,skos:Concept,DA,colt:hoofdnamen,,daciet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:DB,skos:Concept,DB,colt:hoofdnamen,,diatomiet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:DC,skos:Concept,DC,colt:hoofdnamen,,dioriet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:DD,skos:Concept,DD,colt:hoofdnamen,,dolerriet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:DL,skos:Concept,DL,colt:hoofdnamen,,dolomiet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:DK,skos:Concept,DK,colt:hoofdnamen,,dolom kalksteen,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:DE,skos:Concept,DE,colt:hoofdnamen,,duniet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:EC,skos:Concept,EC,colt:hoofdnamen,,eclogiet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:EA,skos:Concept,EA,colt:hoofdnamen,,evaporiet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:FG,skos:Concept,FG,colt:hoofdnamen,,fijn grind,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:FZ,skos:Concept,FZ,colt:hoofdnamen,,fijn zand,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:FA,skos:Concept,FA,colt:hoofdnamen,,fosforiet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:FO,skos:Concept,FO,colt:hoofdnamen,,fossielen,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:FY,skos:Concept,FY,colt:hoofdnamen,,fylliet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:GB,skos:Concept,GB,colt:hoofdnamen,,gabbro,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:GA,skos:Concept,GA,colt:hoofdnamen,,geroerd / gestoord,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:GM,skos:Concept,GM,colt:hoofdnamen,,gespleten metamorf,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:GC,skos:Concept,GC,colt:hoofdnamen,,gips,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:GL,skos:Concept,GL,colt:hoofdnamen,,glauconiet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:GI,skos:Concept,GI,colt:hoofdnamen,,glimmers,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:GD,skos:Concept,GD,colt:hoofdnamen,,gneiss,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:GE,skos:Concept,GE,colt:hoofdnamen,,graniet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:GF,skos:Concept,GF,colt:hoofdnamen,,granodioriet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:XG,skos:Concept,XG,colt:hoofdnamen,,grind,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:GH,skos:Concept,GH,colt:hoofdnamen,,groenshist,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:GS,skos:Concept,GS,colt:hoofdnamen,,groensteen,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:GG,skos:Concept,GG,colt:hoofdnamen,,grof grind,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:GZ,skos:Concept,GZ,colt:hoofdnamen,,grof zand,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:HA,skos:Concept,HA,colt:hoofdnamen,,haliet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:HB,skos:Concept,HB,colt:hoofdnamen,,hematiet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:HD,skos:Concept,HD,colt:hoofdnamen,,hornfels,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:HT,skos:Concept,HT,colt:hoofdnamen,,houtresten,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:HC,skos:Concept,HC,colt:hoofdnamen,,houtskool,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:HU,skos:Concept,HU,colt:hoofdnamen,,humus,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:FE,skos:Concept,FE,colt:hoofdnamen,,ijzer,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:IA,skos:Concept,IA,colt:hoofdnamen,,ijzerooliet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:IN,skos:Concept,IN,colt:hoofdnamen,,intrusief gesteente,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:KA,skos:Concept,KA,colt:hoofdnamen,,kalk,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:KC,skos:Concept,KC,colt:hoofdnamen,,kalkschiefer,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:KS,skos:Concept,KS,colt:hoofdnamen,,kalksteen,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:KB,skos:Concept,KB,colt:hoofdnamen,,kalksteenbreccie,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:ZK,skos:Concept,ZK,colt:hoofdnamen,,kalkzandsteen,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:KL,skos:Concept,KL,colt:hoofdnamen,,klei,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:KT,skos:Concept,KT,colt:hoofdnamen,,kleisteen,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:KO,skos:Concept,KO,colt:hoofdnamen,,komatiet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:KR,skos:Concept,KR,colt:hoofdnamen,,krijt,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:QU,skos:Concept,QU,colt:hoofdnamen,,kwarts,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:KW,skos:Concept,KW,colt:hoofdnamen,,kwartsiet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:LA,skos:Concept,LA,colt:hoofdnamen,,lateriet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:LE,skos:Concept,LE,colt:hoofdnamen,,leem,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:LS,skos:Concept,LS,colt:hoofdnamen,,leisteen,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:LG,skos:Concept,LG,colt:hoofdnamen,,ligniet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:LI,skos:Concept,LI,colt:hoofdnamen,,limoniet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:MA,skos:Concept,MA,colt:hoofdnamen,,marmer,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:ME,skos:Concept,ME,colt:hoofdnamen,,mergel,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:MM,skos:Concept,MM,colt:hoofdnamen,,metamorf gesteente,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:MB,skos:Concept,MB,colt:hoofdnamen,,micashist,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:MG,skos:Concept,MG,colt:hoofdnamen,,middelmatig grind,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:MZ,skos:Concept,MZ,colt:hoofdnamen,,middelmatig zand,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:MI,skos:Concept,MI,colt:hoofdnamen,,migmatiet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:MY,skos:Concept,MY,colt:hoofdnamen,,myloniet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:NN,skos:Concept,NN,colt:hoofdnamen,,nummulieten,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:XX,skos:Concept,XX,colt:hoofdnamen,,onbekend,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:OK,skos:Concept,OK,colt:hoofdnamen,,oölitische kalksteen,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:OM,skos:Concept,OM,colt:hoofdnamen,,organisch materiaal,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:PA,skos:Concept,PA,colt:hoofdnamen,,pegmatiet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:PB,skos:Concept,PB,colt:hoofdnamen,,peridodiet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:PL,skos:Concept,PL,colt:hoofdnamen,,plantenresten,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:PC,skos:Concept,PC,colt:hoofdnamen,,poederkool,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:PS,skos:Concept,PS,colt:hoofdnamen,,psammiet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:PM,skos:Concept,PM,colt:hoofdnamen,,puimsteen,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:PU,skos:Concept,PU,colt:hoofdnamen,,puin,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:PY,skos:Concept,PY,colt:hoofdnamen,,pyriet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:PD,skos:Concept,PD,colt:hoofdnamen,,pyroxeniet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:RA,skos:Concept,RA,colt:hoofdnamen,,radiolariet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:RB,skos:Concept,RB,colt:hoofdnamen,,rhyoliet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:RO,skos:Concept,RO,colt:hoofdnamen,,rots,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:SH,skos:Concept,SH,colt:hoofdnamen,,schalie,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:SC,skos:Concept,SC,colt:hoofdnamen,,schelpen,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:SF,skos:Concept,SF,colt:hoofdnamen,,schelpfragmenten,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:SG,skos:Concept,SG,colt:hoofdnamen,,schelpgruis,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:MS,skos:Concept,MS,colt:hoofdnamen,,schiefer,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:SK,skos:Concept,SK,colt:hoofdnamen,,schieferige kalkst.,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:SO,skos:Concept,SO,colt:hoofdnamen,,scoria,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:SE,skos:Concept,SE,colt:hoofdnamen,,sedimentair,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:SP,skos:Concept,SP,colt:hoofdnamen,,serpentiniet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:SY,skos:Concept,SY,colt:hoofdnamen,,shist,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:SA,skos:Concept,SA,colt:hoofdnamen,,sideriet,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:SX,skos:Concept,SX,colt:hoofdnamen,,silex,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:SI,skos:Concept,SI,colt:hoofdnamen,,silt,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:SS,skos:Concept,SS,colt:hoofdnamen,,siltsteen,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:SL,skos:Concept,SL,colt:hoofdnamen,,slib,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:SN,skos:Concept,SN,colt:hoofdnamen,,steenfragmenten,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:CO,skos:Concept,CO,colt:hoofdnamen,,steenkool,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:ST,skos:Concept,ST,colt:hoofdnamen,,stenen,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:TA,skos:Concept,TA,colt:hoofdnamen,,teelaarde,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:TB,skos:Concept,TB,colt:hoofdnamen,,tuff,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:TS,skos:Concept,TS,colt:hoofdnamen,,tufsteen (tuffeau),,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:VE,skos:Concept,VE,colt:hoofdnamen,,veen,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:RV,skos:Concept,RV,colt:hoofdnamen,,verweerde rots,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:VA,skos:Concept,VA,colt:hoofdnamen,,vulkanisch gesteente,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:VS,skos:Concept,VS,colt:hoofdnamen,,vuursteen,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:WA,skos:Concept,WA,colt:hoofdnamen,,wacksteen,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:XZ,skos:Concept,XZ,colt:hoofdnamen,,zand,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:ZL,skos:Concept,ZL,colt:hoofdnamen,,zandleem,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:ZS,skos:Concept,ZS,colt:hoofdnamen,,zandsteen,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
+ct:ZE,skos:Concept,ZE,colt:hoofdnamen,,zeepsteen,,,,,,,,,,,,,cs:hoofdnaam,,,,,,,cs:hoofdnaam
