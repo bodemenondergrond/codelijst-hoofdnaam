@@ -1,0 +1,2725 @@
+{
+    "@graph": [
+        {
+            "@id": "ct:GF",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "granodioriet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "GF",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "cs:hoofdnaam",
+            "skos:hasTopConcept": [
+                {
+                    "@id": "ct:GF"
+                },
+                {
+                    "@id": "ct:BA"
+                },
+                {
+                    "@id": "ct:KL"
+                },
+                {
+                    "@id": "ct:SK"
+                },
+                {
+                    "@id": "ct:DC"
+                },
+                {
+                    "@id": "ct:AC"
+                },
+                {
+                    "@id": "ct:SE"
+                },
+                {
+                    "@id": "ct:SG"
+                },
+                {
+                    "@id": "ct:FZ"
+                },
+                {
+                    "@id": "ct:HB"
+                },
+                {
+                    "@id": "ct:PD"
+                },
+                {
+                    "@id": "ct:KS"
+                },
+                {
+                    "@id": "ct:SP"
+                },
+                {
+                    "@id": "ct:IN"
+                },
+                {
+                    "@id": "ct:KO"
+                },
+                {
+                    "@id": "ct:PM"
+                },
+                {
+                    "@id": "ct:WA"
+                },
+                {
+                    "@id": "ct:LS"
+                },
+                {
+                    "@id": "ct:SX"
+                },
+                {
+                    "@id": "ct:OK"
+                },
+                {
+                    "@id": "ct:PU"
+                },
+                {
+                    "@id": "ct:RB"
+                },
+                {
+                    "@id": "ct:SA"
+                },
+                {
+                    "@id": "ct:VA"
+                },
+                {
+                    "@id": "ct:RV"
+                },
+                {
+                    "@id": "ct:HC"
+                },
+                {
+                    "@id": "ct:AG"
+                },
+                {
+                    "@id": "ct:SI"
+                },
+                {
+                    "@id": "ct:KC"
+                },
+                {
+                    "@id": "ct:ZS"
+                },
+                {
+                    "@id": "ct:ME"
+                },
+                {
+                    "@id": "ct:VE"
+                },
+                {
+                    "@id": "ct:PB"
+                },
+                {
+                    "@id": "ct:CB"
+                },
+                {
+                    "@id": "ct:XZ"
+                },
+                {
+                    "@id": "ct:MA"
+                },
+                {
+                    "@id": "ct:DL"
+                },
+                {
+                    "@id": "ct:LI"
+                },
+                {
+                    "@id": "ct:MM"
+                },
+                {
+                    "@id": "ct:GD"
+                },
+                {
+                    "@id": "ct:AB"
+                },
+                {
+                    "@id": "ct:AD"
+                },
+                {
+                    "@id": "ct:SF"
+                },
+                {
+                    "@id": "ct:FY"
+                },
+                {
+                    "@id": "ct:HA"
+                },
+                {
+                    "@id": "ct:ZL"
+                },
+                {
+                    "@id": "ct:PC"
+                },
+                {
+                    "@id": "ct:GH"
+                },
+                {
+                    "@id": "ct:KR"
+                },
+                {
+                    "@id": "ct:MZ"
+                },
+                {
+                    "@id": "ct:SO"
+                },
+                {
+                    "@id": "ct:VS"
+                },
+                {
+                    "@id": "ct:DE"
+                },
+                {
+                    "@id": "ct:ZE"
+                },
+                {
+                    "@id": "ct:CO"
+                },
+                {
+                    "@id": "ct:HU"
+                },
+                {
+                    "@id": "ct:GE"
+                },
+                {
+                    "@id": "ct:PL"
+                },
+                {
+                    "@id": "ct:SC"
+                },
+                {
+                    "@id": "ct:TB"
+                },
+                {
+                    "@id": "ct:GS"
+                },
+                {
+                    "@id": "ct:KA"
+                },
+                {
+                    "@id": "ct:GM"
+                },
+                {
+                    "@id": "ct:RA"
+                },
+                {
+                    "@id": "ct:FO"
+                },
+                {
+                    "@id": "ct:MS"
+                },
+                {
+                    "@id": "ct:EA"
+                },
+                {
+                    "@id": "ct:AF"
+                },
+                {
+                    "@id": "ct:ST"
+                },
+                {
+                    "@id": "ct:KB"
+                },
+                {
+                    "@id": "ct:PA"
+                },
+                {
+                    "@id": "ct:CT"
+                },
+                {
+                    "@id": "ct:BC"
+                },
+                {
+                    "@id": "ct:GL"
+                },
+                {
+                    "@id": "ct:DK"
+                },
+                {
+                    "@id": "ct:GZ"
+                },
+                {
+                    "@id": "ct:GA"
+                },
+                {
+                    "@id": "ct:GC"
+                },
+                {
+                    "@id": "ct:AA"
+                },
+                {
+                    "@id": "ct:RO"
+                },
+                {
+                    "@id": "ct:AW"
+                },
+                {
+                    "@id": "ct:MG"
+                },
+                {
+                    "@id": "ct:SY"
+                },
+                {
+                    "@id": "ct:DB"
+                },
+                {
+                    "@id": "ct:FA"
+                },
+                {
+                    "@id": "ct:ZK"
+                },
+                {
+                    "@id": "ct:GG"
+                },
+                {
+                    "@id": "ct:BB"
+                },
+                {
+                    "@id": "ct:BT"
+                },
+                {
+                    "@id": "ct:CA"
+                },
+                {
+                    "@id": "ct:KW"
+                },
+                {
+                    "@id": "ct:LE"
+                },
+                {
+                    "@id": "ct:MY"
+                },
+                {
+                    "@id": "ct:SL"
+                },
+                {
+                    "@id": "ct:DD"
+                },
+                {
+                    "@id": "ct:LA"
+                },
+                {
+                    "@id": "ct:SN"
+                },
+                {
+                    "@id": "ct:HT"
+                },
+                {
+                    "@id": "ct:FE"
+                },
+                {
+                    "@id": "ct:AR"
+                },
+                {
+                    "@id": "ct:QU"
+                },
+                {
+                    "@id": "ct:SH"
+                },
+                {
+                    "@id": "ct:AT"
+                },
+                {
+                    "@id": "ct:NN"
+                },
+                {
+                    "@id": "ct:XG"
+                },
+                {
+                    "@id": "ct:OM"
+                },
+                {
+                    "@id": "ct:PY"
+                },
+                {
+                    "@id": "ct:PS"
+                },
+                {
+                    "@id": "ct:KT"
+                },
+                {
+                    "@id": "ct:BS"
+                },
+                {
+                    "@id": "ct:AE"
+                },
+                {
+                    "@id": "ct:SS"
+                },
+                {
+                    "@id": "ct:MI"
+                },
+                {
+                    "@id": "ct:XX"
+                },
+                {
+                    "@id": "ct:GI"
+                },
+                {
+                    "@id": "ct:HD"
+                },
+                {
+                    "@id": "ct:AN"
+                },
+                {
+                    "@id": "ct:LG"
+                },
+                {
+                    "@id": "ct:EC"
+                },
+                {
+                    "@id": "ct:FG"
+                },
+                {
+                    "@id": "ct:GB"
+                },
+                {
+                    "@id": "ct:IA"
+                },
+                {
+                    "@id": "ct:BK"
+                },
+                {
+                    "@id": "ct:TA"
+                },
+                {
+                    "@id": "ct:AV"
+                },
+                {
+                    "@id": "ct:TS"
+                },
+                {
+                    "@id": "ct:DA"
+                },
+                {
+                    "@id": "ct:MB"
+                }
+            ]
+        },
+        {
+            "@id": "ct:MS",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "schiefer"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "MS",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:TA",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "teelaarde"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "TA",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:MB",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "micashist"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "MB",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:SO",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "scoria"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "SO",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:BS",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "blauwshist"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "BS",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:IA",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "ijzerooliet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "IA",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:BB",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "bauxiet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "BB",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:GL",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "glauconiet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "GL",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:MY",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "myloniet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "MY",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:FZ",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "fijn zand"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "FZ",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:BA",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "basalt"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "BA",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:KL",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "klei"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "KL",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:SK",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "schieferige kalkst."
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "SK",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:DC",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "dioriet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "DC",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:AC",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "anhydriet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "AC",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:SE",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "sedimentair"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "SE",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:SG",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "schelpgruis"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "SG",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:HB",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "hematiet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "HB",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:PD",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "pyroxeniet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "PD",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:KS",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "kalksteen"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "KS",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:SP",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "serpentiniet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "SP",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:IN",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "intrusief gesteente"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "IN",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:KO",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "komatiet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "KO",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:PM",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "puimsteen"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "PM",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:WA",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "wacksteen"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "WA",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:LS",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "leisteen"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "LS",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:SX",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "silex"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "SX",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:OK",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "oölitische kalksteen"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "OK",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:PU",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "puin"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "PU",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:RB",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "rhyoliet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "RB",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:SA",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "sideriet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "SA",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:VA",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "vulkanisch gesteente"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "VA",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:RV",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "verweerde rots"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "RV",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:HC",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "houtskool"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "HC",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:AG",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "as"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "AG",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:SI",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "silt"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "SI",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:KC",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "kalkschiefer"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "KC",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:ZS",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "zandsteen"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "ZS",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:ME",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "mergel"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "ME",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:VE",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "veen"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "VE",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:PB",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "peridodiet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "PB",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:CB",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "conglomeraat/breccie"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "CB",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:XZ",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "zand"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "XZ",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:MA",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "marmer"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "MA",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:DL",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "dolomiet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "DL",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:LI",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "limoniet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "LI",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:MM",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "metamorf gesteente"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "MM",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:GD",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "gneiss"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "GD",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:AB",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "andesiet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "AB",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:AD",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "ankeriet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "AD",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:SF",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "schelpfragmenten"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "SF",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:FY",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "fylliet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "FY",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:HA",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "haliet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "HA",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:ZL",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "zandleem"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "ZL",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:PC",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "poederkool"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "PC",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:GH",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "groenshist"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "GH",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:KR",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "krijt"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "KR",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:MZ",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "middelmatig zand"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "MZ",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:VS",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "vuursteen"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "VS",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:DE",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "duniet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "DE",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:ZE",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "zeepsteen"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "ZE",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:CO",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "steenkool"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "CO",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:HU",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "humus"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "HU",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:GE",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "graniet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "GE",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:PL",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "plantenresten"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "PL",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:SC",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "schelpen"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "SC",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:TB",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "tuff"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "TB",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:GS",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "groensteen"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "GS",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:KA",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "kalk"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "KA",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:GM",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "gespleten metamorf"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "GM",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:RA",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "radiolariet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "RA",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:FO",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "fossielen"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "FO",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:EA",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "evaporiet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "EA",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:AF",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "afval"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "AF",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:ST",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "stenen"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "ST",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:KB",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "kalksteenbreccie"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "KB",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:PA",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "pegmatiet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "PA",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:CT",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "chert (gebande)"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "CT",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:BC",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "bentoniet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "BC",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:DK",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "dolom kalksteen"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "DK",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:GZ",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "grof zand"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "GZ",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:GA",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "geroerd / gestoord"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "GA",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:GC",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "gips"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "GC",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:AA",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "amfiboliet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "AA",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:RO",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "rots"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "RO",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:AW",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "antropogeen weinig vloeistofdicht"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "AW",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:MG",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "middelmatig grind"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "MG",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:SY",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "shist"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "SY",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:DB",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "diatomiet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "DB",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:FA",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "fosforiet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "FA",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:ZK",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "kalkzandsteen"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "ZK",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:GG",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "grof grind"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "GG",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:BT",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "beton"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "BT",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:CA",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "carbonaatfragmenten"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "CA",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:KW",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "kwartsiet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "KW",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:LE",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "leem"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "LE",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:SL",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "slib"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "SL",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:DD",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "dolerriet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "DD",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:LA",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "lateriet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "LA",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:SN",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "steenfragmenten"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "SN",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:HT",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "houtresten"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "HT",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:FE",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "ijzer"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "FE",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:AR",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "areniet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "AR",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:QU",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "kwarts"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "QU",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:SH",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "schalie"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "SH",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:AT",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "asfalt"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "AT",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:NN",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "nummulieten"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "NN",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:XG",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "grind"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "XG",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:OM",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "organisch materiaal"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "OM",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:PY",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "pyriet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "PY",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:PS",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "psammiet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "PS",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:KT",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "kleisteen"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "KT",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:AE",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "arkose"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "AE",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:SS",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "siltsteen"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "SS",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:MI",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "migmatiet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "MI",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:XX",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "onbekend"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "XX",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:GI",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "glimmers"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "GI",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:HD",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "hornfels"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "HD",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:AN",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "antropogeen niet vloeistofdicht"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "AN",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:LG",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "ligniet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "LG",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:EC",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "eclogiet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "EC",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:FG",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "fijn grind"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "FG",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:GB",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "gabbro"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "GB",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:BK",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "baksteen"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "BK",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:AV",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "antropogeen vloeistofdicht"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "AV",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:TS",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "tufsteen (tuffeau)"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "TS",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:DA",
+            "skos:topConceptOf": {
+                "@id": "cs:hoofdnaam"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "daciet"
+            },
+            "skos:inScheme": {
+                "@id": "cs:hoofdnaam"
+            },
+            "dc:identifier": "DA",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "colt:hoofdnaam",
+            "skos:member": [
+                {
+                    "@id": "ct:SL"
+                },
+                {
+                    "@id": "ct:AV"
+                },
+                {
+                    "@id": "ct:SN"
+                },
+                {
+                    "@id": "ct:MA"
+                },
+                {
+                    "@id": "ct:LE"
+                },
+                {
+                    "@id": "ct:XX"
+                },
+                {
+                    "@id": "ct:HC"
+                },
+                {
+                    "@id": "ct:PB"
+                },
+                {
+                    "@id": "ct:EA"
+                },
+                {
+                    "@id": "ct:SK"
+                },
+                {
+                    "@id": "ct:DE"
+                },
+                {
+                    "@id": "ct:SI"
+                },
+                {
+                    "@id": "ct:AG"
+                },
+                {
+                    "@id": "ct:ZS"
+                },
+                {
+                    "@id": "ct:RO"
+                },
+                {
+                    "@id": "ct:GH"
+                },
+                {
+                    "@id": "ct:DD"
+                },
+                {
+                    "@id": "ct:GS"
+                },
+                {
+                    "@id": "ct:RV"
+                },
+                {
+                    "@id": "ct:FY"
+                },
+                {
+                    "@id": "ct:RB"
+                },
+                {
+                    "@id": "ct:GG"
+                },
+                {
+                    "@id": "ct:VA"
+                },
+                {
+                    "@id": "ct:GE"
+                },
+                {
+                    "@id": "ct:CO"
+                },
+                {
+                    "@id": "ct:BS"
+                },
+                {
+                    "@id": "ct:PS"
+                },
+                {
+                    "@id": "ct:AT"
+                },
+                {
+                    "@id": "ct:MI"
+                },
+                {
+                    "@id": "ct:AR"
+                },
+                {
+                    "@id": "ct:SH"
+                },
+                {
+                    "@id": "ct:PD"
+                },
+                {
+                    "@id": "ct:LA"
+                },
+                {
+                    "@id": "ct:SG"
+                },
+                {
+                    "@id": "ct:DA"
+                },
+                {
+                    "@id": "ct:SE"
+                },
+                {
+                    "@id": "ct:AC"
+                },
+                {
+                    "@id": "ct:DL"
+                },
+                {
+                    "@id": "ct:GB"
+                },
+                {
+                    "@id": "ct:OM"
+                },
+                {
+                    "@id": "ct:VE"
+                },
+                {
+                    "@id": "ct:MZ"
+                },
+                {
+                    "@id": "ct:GM"
+                },
+                {
+                    "@id": "ct:KC"
+                },
+                {
+                    "@id": "ct:KA"
+                },
+                {
+                    "@id": "ct:IN"
+                },
+                {
+                    "@id": "ct:MY"
+                },
+                {
+                    "@id": "ct:CA"
+                },
+                {
+                    "@id": "ct:BC"
+                },
+                {
+                    "@id": "ct:PA"
+                },
+                {
+                    "@id": "ct:ST"
+                },
+                {
+                    "@id": "ct:AF"
+                },
+                {
+                    "@id": "ct:MG"
+                },
+                {
+                    "@id": "ct:LI"
+                },
+                {
+                    "@id": "ct:KT"
+                },
+                {
+                    "@id": "ct:DC"
+                },
+                {
+                    "@id": "ct:SS"
+                },
+                {
+                    "@id": "ct:AE"
+                },
+                {
+                    "@id": "ct:KL"
+                },
+                {
+                    "@id": "ct:RA"
+                },
+                {
+                    "@id": "ct:GF"
+                },
+                {
+                    "@id": "ct:KS"
+                },
+                {
+                    "@id": "ct:HB"
+                },
+                {
+                    "@id": "ct:FG"
+                },
+                {
+                    "@id": "ct:WA"
+                },
+                {
+                    "@id": "ct:NN"
+                },
+                {
+                    "@id": "ct:ZL"
+                },
+                {
+                    "@id": "ct:FA"
+                },
+                {
+                    "@id": "ct:QU"
+                },
+                {
+                    "@id": "ct:LS"
+                },
+                {
+                    "@id": "ct:PC"
+                },
+                {
+                    "@id": "ct:PM"
+                },
+                {
+                    "@id": "ct:BT"
+                },
+                {
+                    "@id": "ct:BB"
+                },
+                {
+                    "@id": "ct:AD"
+                },
+                {
+                    "@id": "ct:SF"
+                },
+                {
+                    "@id": "ct:SP"
+                },
+                {
+                    "@id": "ct:TB"
+                },
+                {
+                    "@id": "ct:AB"
+                },
+                {
+                    "@id": "ct:DK"
+                },
+                {
+                    "@id": "ct:PL"
+                },
+                {
+                    "@id": "ct:TS"
+                },
+                {
+                    "@id": "ct:XZ"
+                },
+                {
+                    "@id": "ct:IA"
+                },
+                {
+                    "@id": "ct:SY"
+                },
+                {
+                    "@id": "ct:EC"
+                },
+                {
+                    "@id": "ct:AW"
+                },
+                {
+                    "@id": "ct:SO"
+                },
+                {
+                    "@id": "ct:AA"
+                },
+                {
+                    "@id": "ct:KB"
+                },
+                {
+                    "@id": "ct:HD"
+                },
+                {
+                    "@id": "ct:KO"
+                },
+                {
+                    "@id": "ct:CB"
+                },
+                {
+                    "@id": "ct:FO"
+                },
+                {
+                    "@id": "ct:FE"
+                },
+                {
+                    "@id": "ct:FZ"
+                },
+                {
+                    "@id": "ct:BK"
+                },
+                {
+                    "@id": "ct:PU"
+                },
+                {
+                    "@id": "ct:MS"
+                },
+                {
+                    "@id": "ct:TA"
+                },
+                {
+                    "@id": "ct:XG"
+                },
+                {
+                    "@id": "ct:HU"
+                },
+                {
+                    "@id": "ct:SX"
+                },
+                {
+                    "@id": "ct:ME"
+                },
+                {
+                    "@id": "ct:LG"
+                },
+                {
+                    "@id": "ct:AN"
+                },
+                {
+                    "@id": "ct:KR"
+                },
+                {
+                    "@id": "ct:HT"
+                },
+                {
+                    "@id": "ct:GZ"
+                },
+                {
+                    "@id": "ct:HA"
+                },
+                {
+                    "@id": "ct:SC"
+                },
+                {
+                    "@id": "ct:GL"
+                },
+                {
+                    "@id": "ct:KW"
+                },
+                {
+                    "@id": "ct:SA"
+                },
+                {
+                    "@id": "ct:ZK"
+                },
+                {
+                    "@id": "ct:OK"
+                },
+                {
+                    "@id": "ct:CT"
+                },
+                {
+                    "@id": "ct:GD"
+                },
+                {
+                    "@id": "ct:ZE"
+                },
+                {
+                    "@id": "ct:DB"
+                },
+                {
+                    "@id": "ct:VS"
+                },
+                {
+                    "@id": "ct:GI"
+                },
+                {
+                    "@id": "ct:GC"
+                },
+                {
+                    "@id": "ct:PY"
+                },
+                {
+                    "@id": "ct:BA"
+                },
+                {
+                    "@id": "ct:GA"
+                },
+                {
+                    "@id": "ct:MB"
+                },
+                {
+                    "@id": "ct:MM"
+                }
+            ],
+            "skos:mappingRelation": {
+                "@id": "file:///tmp/RtmppsoAyN/hoofdnaam"
+            },
+            "@type": "skos:Collection",
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Collectie van hoofdnaam."
+            },
+            "dc:identifier": "hoofdnaam",
+            "skos:inScheme": {
+                "@id": "file:///tmp/RtmppsoAyN/cs"
+            }
+        }
+    ],
+    "@context": {
+        "cs": "https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/",
+        "ct": "https://data.bodemenondergrond.vlaanderen.be/id/concept/hoofdnaam/",
+        "dct": "http://purl.org/dc/terms/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "colt": "https://data.bodemenondergrond.vlaanderen.be/id/collection/hoofdnaam/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "xkos": "http://rdf-vocabulary.ddialliance.org/xkos#"
+    }
+}

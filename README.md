@@ -1,8 +1,8 @@
-# codelijst-hoofdnamen
+# codelijst-hoofdnaam
 
 ## Samenvatting
 
-De codelijst 'hoofdnamen' bevat eenduidige benamingen van ...
+De codelijst 'hoofdnaam' bevat eenduidige benamingen van ...
 
 
 ## Projectinhoud
