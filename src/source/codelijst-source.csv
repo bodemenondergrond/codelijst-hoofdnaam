@@ -1,0 +1,131 @@
+uri,dc.identifier,collections,notation,prefLabel,altLabel,broader,broaderTransitive,broadMatch,changeNote,closeMatch,definition,editorialNote,exactMatch,example,hiddenLabel,historyNote,inScheme,mappingRelation,note,related,relatedMatch,scopeNote,semanticRelation,topConceptOf
+collectie:hoofdnaam,be.vlaanderen.bodemenondergrond.data.id.collection.hoofdnaam.hoofdnaam,,,Collectie van hoofdnaam.,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,
+af,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.af,collectie:hoofdnaam,AF,afval,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+aa,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.aa,collectie:hoofdnaam,AA,amfiboliet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+ab,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ab,collectie:hoofdnaam,AB,andesiet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+ac,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ac,collectie:hoofdnaam,AC,anhydriet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+ad,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ad,collectie:hoofdnaam,AD,ankeriet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+an,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.an,collectie:hoofdnaam,AN,antropogeen niet vloeistofdicht,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+av,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.av,collectie:hoofdnaam,AV,antropogeen vloeistofdicht,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+aw,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.aw,collectie:hoofdnaam,AW,antropogeen weinig vloeistofdicht,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+ar,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ar,collectie:hoofdnaam,AR,areniet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+ae,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ae,collectie:hoofdnaam,AE,arkose,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+ag,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ag,collectie:hoofdnaam,AG,as,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+at,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.at,collectie:hoofdnaam,AT,asfalt,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+bk,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.bk,collectie:hoofdnaam,BK,baksteen,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+ba,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ba,collectie:hoofdnaam,BA,basalt,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+bb,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.bb,collectie:hoofdnaam,BB,bauxiet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+bc,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.bc,collectie:hoofdnaam,BC,bentoniet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+bt,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.bt,collectie:hoofdnaam,BT,beton,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+bs,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.bs,collectie:hoofdnaam,BS,blauwshist,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+ca,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ca,collectie:hoofdnaam,CA,carbonaatfragmenten,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+ct,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ct,collectie:hoofdnaam,CT,chert (gebande),,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+cb,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.cb,collectie:hoofdnaam,CB,conglomeraat/breccie,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+da,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.da,collectie:hoofdnaam,DA,daciet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+db,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.db,collectie:hoofdnaam,DB,diatomiet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+dc,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.dc,collectie:hoofdnaam,DC,dioriet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+dd,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.dd,collectie:hoofdnaam,DD,dolerriet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+dl,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.dl,collectie:hoofdnaam,DL,dolomiet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+dk,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.dk,collectie:hoofdnaam,DK,dolom kalksteen,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+de,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.de,collectie:hoofdnaam,DE,duniet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+ec,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ec,collectie:hoofdnaam,EC,eclogiet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+ea,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ea,collectie:hoofdnaam,EA,evaporiet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+fg,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.fg,collectie:hoofdnaam,FG,fijn grind,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+fz,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.fz,collectie:hoofdnaam,FZ,fijn zand,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+fa,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.fa,collectie:hoofdnaam,FA,fosforiet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+fo,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.fo,collectie:hoofdnaam,FO,fossielen,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+fy,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.fy,collectie:hoofdnaam,FY,fylliet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+gb,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.gb,collectie:hoofdnaam,GB,gabbro,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+ga,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ga,collectie:hoofdnaam,GA,geroerd / gestoord,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+gm,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.gm,collectie:hoofdnaam,GM,gespleten metamorf,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+gc,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.gc,collectie:hoofdnaam,GC,gips,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+gl,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.gl,collectie:hoofdnaam,GL,glauconiet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+gi,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.gi,collectie:hoofdnaam,GI,glimmers,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+gd,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.gd,collectie:hoofdnaam,GD,gneiss,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+ge,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ge,collectie:hoofdnaam,GE,graniet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+gf,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.gf,collectie:hoofdnaam,GF,granodioriet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+xg,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.xg,collectie:hoofdnaam,XG,grind,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+gh,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.gh,collectie:hoofdnaam,GH,groenshist,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+gs,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.gs,collectie:hoofdnaam,GS,groensteen,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+gg,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.gg,collectie:hoofdnaam,GG,grof grind,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+gz,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.gz,collectie:hoofdnaam,GZ,grof zand,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+ha,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ha,collectie:hoofdnaam,HA,haliet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+hb,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.hb,collectie:hoofdnaam,HB,hematiet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+hd,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.hd,collectie:hoofdnaam,HD,hornfels,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+ht,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ht,collectie:hoofdnaam,HT,houtresten,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+hc,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.hc,collectie:hoofdnaam,HC,houtskool,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+hu,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.hu,collectie:hoofdnaam,HU,humus,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+fe,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.fe,collectie:hoofdnaam,FE,ijzer,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+ia,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ia,collectie:hoofdnaam,IA,ijzerooliet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+in,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.in,collectie:hoofdnaam,IN,intrusief gesteente,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+ka,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ka,collectie:hoofdnaam,KA,kalk,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+kc,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.kc,collectie:hoofdnaam,KC,kalkschiefer,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+ks,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ks,collectie:hoofdnaam,KS,kalksteen,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+kb,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.kb,collectie:hoofdnaam,KB,kalksteenbreccie,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+zk,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.zk,collectie:hoofdnaam,ZK,kalkzandsteen,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+kl,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.kl,collectie:hoofdnaam,KL,klei,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+kt,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.kt,collectie:hoofdnaam,KT,kleisteen,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+ko,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ko,collectie:hoofdnaam,KO,komatiet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+kr,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.kr,collectie:hoofdnaam,KR,krijt,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+qu,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.qu,collectie:hoofdnaam,QU,kwarts,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+kw,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.kw,collectie:hoofdnaam,KW,kwartsiet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+la,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.la,collectie:hoofdnaam,LA,lateriet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+le,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.le,collectie:hoofdnaam,LE,leem,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+ls,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ls,collectie:hoofdnaam,LS,leisteen,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+lg,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.lg,collectie:hoofdnaam,LG,ligniet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+li,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.li,collectie:hoofdnaam,LI,limoniet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+ma,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ma,collectie:hoofdnaam,MA,marmer,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+me,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.me,collectie:hoofdnaam,ME,mergel,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+mm,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.mm,collectie:hoofdnaam,MM,metamorf gesteente,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+mb,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.mb,collectie:hoofdnaam,MB,micashist,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+mg,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.mg,collectie:hoofdnaam,MG,middelmatig grind,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+mz,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.mz,collectie:hoofdnaam,MZ,middelmatig zand,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+mi,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.mi,collectie:hoofdnaam,MI,migmatiet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+my,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.my,collectie:hoofdnaam,MY,myloniet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+nn,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.nn,collectie:hoofdnaam,NN,nummulieten,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+xx,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.xx,collectie:hoofdnaam,XX,onbekend,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+ok,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ok,collectie:hoofdnaam,OK,oölitische kalksteen,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+om,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.om,collectie:hoofdnaam,OM,organisch materiaal,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+pa,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.pa,collectie:hoofdnaam,PA,pegmatiet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+pb,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.pb,collectie:hoofdnaam,PB,peridodiet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+pl,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.pl,collectie:hoofdnaam,PL,plantenresten,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+pc,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.pc,collectie:hoofdnaam,PC,poederkool,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+ps,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ps,collectie:hoofdnaam,PS,psammiet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+pm,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.pm,collectie:hoofdnaam,PM,puimsteen,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+pu,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.pu,collectie:hoofdnaam,PU,puin,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+py,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.py,collectie:hoofdnaam,PY,pyriet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+pd,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.pd,collectie:hoofdnaam,PD,pyroxeniet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+ra,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ra,collectie:hoofdnaam,RA,radiolariet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+rb,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.rb,collectie:hoofdnaam,RB,rhyoliet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+ro,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ro,collectie:hoofdnaam,RO,rots,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+sh,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.sh,collectie:hoofdnaam,SH,schalie,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+sc,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.sc,collectie:hoofdnaam,SC,schelpen,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+sf,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.sf,collectie:hoofdnaam,SF,schelpfragmenten,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+sg,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.sg,collectie:hoofdnaam,SG,schelpgruis,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+ms,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ms,collectie:hoofdnaam,MS,schiefer,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+sk,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.sk,collectie:hoofdnaam,SK,schieferige kalkst.,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+so,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.so,collectie:hoofdnaam,SO,scoria,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+se,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.se,collectie:hoofdnaam,SE,sedimentair,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+sp,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.sp,collectie:hoofdnaam,SP,serpentiniet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+sy,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.sy,collectie:hoofdnaam,SY,shist,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+sa,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.sa,collectie:hoofdnaam,SA,sideriet,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+sx,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.sx,collectie:hoofdnaam,SX,silex,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+si,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.si,collectie:hoofdnaam,SI,silt,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+ss,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ss,collectie:hoofdnaam,SS,siltsteen,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+sl,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.sl,collectie:hoofdnaam,SL,slib,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+sn,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.sn,collectie:hoofdnaam,SN,steenfragmenten,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+co,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.co,collectie:hoofdnaam,CO,steenkool,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+st,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.st,collectie:hoofdnaam,ST,stenen,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+ta,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ta,collectie:hoofdnaam,TA,teelaarde,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+tb,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.tb,collectie:hoofdnaam,TB,tuff,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+ts,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ts,collectie:hoofdnaam,TS,tufsteen (tuffeau),,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+ve,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ve,collectie:hoofdnaam,VE,veen,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+rv,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.rv,collectie:hoofdnaam,RV,verweerde rots,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+va,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.va,collectie:hoofdnaam,VA,vulkanisch gesteente,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+vs,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.vs,collectie:hoofdnaam,VS,vuursteen,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+wa,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.wa,collectie:hoofdnaam,WA,wacksteen,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+xz,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.xz,collectie:hoofdnaam,XZ,zand,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+zl,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.zl,collectie:hoofdnaam,ZL,zandleem,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+zs,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.zs,collectie:hoofdnaam,ZS,zandsteen,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+ze,be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ze,collectie:hoofdnaam,ZE,zeepsteen,,,,,,,,,,,,,conceptscheme:hoofdnaam,,,,,,,conceptscheme:hoofdnaam
+conceptscheme:hoofdnaam,be.vlaanderen.bodemenondergrond.data.id.conceptscheme.hoofdnaam,,,lijst van hoofdnamen,,,,,,,,,,,,,,,,,,,,

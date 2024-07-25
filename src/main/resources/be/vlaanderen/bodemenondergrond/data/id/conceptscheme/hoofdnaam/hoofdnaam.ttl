@@ -1,786 +1,833 @@
-@prefix colt: <https://data.bodemenondergrond.vlaanderen.be/id/collection/hoofdnaam/> .
-@prefix cs:   <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/> .
-@prefix ct:   <https://data.bodemenondergrond.vlaanderen.be/id/concept/hoofdnaam/> .
-@prefix dc:   <http://purl.org/dc/elements/1.1/> .
-@prefix dct:  <http://purl.org/dc/terms/> .
-@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
-@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
-
-ct:GF   rdf:type           skos:Concept;
-        dc:identifier      "GF";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "granodioriet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:MS   rdf:type           skos:Concept;
-        dc:identifier      "MS";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "schiefer"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:TA   rdf:type           skos:Concept;
-        dc:identifier      "TA";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "teelaarde"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:MB   rdf:type           skos:Concept;
-        dc:identifier      "MB";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "micashist"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:SO   rdf:type           skos:Concept;
-        dc:identifier      "SO";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "scoria"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:BS   rdf:type           skos:Concept;
-        dc:identifier      "BS";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "blauwshist"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:IA   rdf:type           skos:Concept;
-        dc:identifier      "IA";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "ijzerooliet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:BB   rdf:type           skos:Concept;
-        dc:identifier      "BB";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "bauxiet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:GL   rdf:type           skos:Concept;
-        dc:identifier      "GL";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "glauconiet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:MY   rdf:type           skos:Concept;
-        dc:identifier      "MY";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "myloniet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:FZ   rdf:type           skos:Concept;
-        dc:identifier      "FZ";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "fijn zand"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-cs:hoofdnaam  skos:hasTopConcept  ct:GF , ct:BA , ct:KL , ct:SK , ct:DC , ct:AC , ct:SE , ct:SG , ct:FZ , ct:HB , ct:PD , ct:KS , ct:SP , ct:IN , ct:KO , ct:PM , ct:WA , ct:LS , ct:SX , ct:OK , ct:PU , ct:HC , ct:RB , ct:SA , ct:RV , ct:VA , ct:AG , ct:SI , ct:KC , ct:VE , ct:CB , ct:ME , ct:PB , ct:ZS , ct:XZ , ct:MA , ct:DL , ct:LI , ct:MM , ct:GD , ct:AB , ct:AD , ct:SF , ct:FY , ct:HA , ct:ZL , ct:PC , ct:GH , ct:KR , ct:MZ , ct:SO , ct:VS , ct:DE , ct:ZE , ct:CO , ct:HU , ct:GE , ct:PL , ct:SC , ct:TB , ct:GS , ct:KA , ct:GM , ct:RA , ct:FO , ct:MS , ct:EA , ct:AF , ct:ST , ct:KB , ct:PA , ct:CT , ct:BC , ct:GL , ct:DK , ct:GZ , ct:GA , ct:GC , ct:AA , ct:RO , ct:AW , ct:MG , ct:SY , ct:DB , ct:FA , ct:ZK , ct:GG , ct:BB , ct:BT , ct:CA , ct:KW , ct:LE , ct:MY , ct:SL , ct:DD , ct:LA , ct:SN , ct:HT , ct:FE , ct:AR , ct:QU , ct:SH , ct:AT , ct:NN , ct:XG , ct:OM , ct:PY , ct:PS , ct:KT , ct:BS , ct:AE , ct:SS , ct:MI , ct:XX , ct:GI , ct:HD , ct:AN , ct:LG , ct:EC , ct:FG , ct:GB , ct:IA , ct:BK , ct:TA , ct:AV , ct:TS , ct:DA , ct:MB .
-
-ct:VS   rdf:type           skos:Concept;
-        dc:identifier      "VS";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "vuursteen"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:LE   rdf:type           skos:Concept;
-        dc:identifier      "LE";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "leem"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:HU   rdf:type           skos:Concept;
-        dc:identifier      "HU";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "humus"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:AV   rdf:type           skos:Concept;
-        dc:identifier      "AV";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "antropogeen vloeistofdicht"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:HD   rdf:type           skos:Concept;
-        dc:identifier      "HD";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "hornfels"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:KS   rdf:type           skos:Concept;
-        dc:identifier      "KS";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "kalksteen"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:AE   rdf:type           skos:Concept;
-        dc:identifier      "AE";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "arkose"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:KB   rdf:type           skos:Concept;
-        dc:identifier      "KB";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "kalksteenbreccie"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:DC   rdf:type           skos:Concept;
-        dc:identifier      "DC";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "dioriet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:RA   rdf:type           skos:Concept;
-        dc:identifier      "RA";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "radiolariet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:GA   rdf:type           skos:Concept;
-        dc:identifier      "GA";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "geroerd / gestoord"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:FO   rdf:type           skos:Concept;
-        dc:identifier      "FO";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "fossielen"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:PL   rdf:type           skos:Concept;
-        dc:identifier      "PL";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "plantenresten"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:QU   rdf:type           skos:Concept;
-        dc:identifier      "QU";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "kwarts"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:TS   rdf:type           skos:Concept;
-        dc:identifier      "TS";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "tufsteen (tuffeau)"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:GG   rdf:type           skos:Concept;
-        dc:identifier      "GG";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "grof grind"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:TB   rdf:type           skos:Concept;
-        dc:identifier      "TB";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "tuff"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:SP   rdf:type           skos:Concept;
-        dc:identifier      "SP";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "serpentiniet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:PA   rdf:type           skos:Concept;
-        dc:identifier      "PA";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "pegmatiet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:BT   rdf:type           skos:Concept;
-        dc:identifier      "BT";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "beton"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:BC   rdf:type           skos:Concept;
-        dc:identifier      "BC";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "bentoniet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:EA   rdf:type           skos:Concept;
-        dc:identifier      "EA";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "evaporiet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:XZ   rdf:type           skos:Concept;
-        dc:identifier      "XZ";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "zand"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:GM   rdf:type           skos:Concept;
-        dc:identifier      "GM";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "gespleten metamorf"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:MZ   rdf:type           skos:Concept;
-        dc:identifier      "MZ";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "middelmatig zand"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:MI   rdf:type           skos:Concept;
-        dc:identifier      "MI";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "migmatiet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:SE   rdf:type           skos:Concept;
-        dc:identifier      "SE";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "sedimentair"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:AW   rdf:type           skos:Concept;
-        dc:identifier      "AW";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "antropogeen weinig vloeistofdicht"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:KT   rdf:type           skos:Concept;
-        dc:identifier      "KT";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "kleisteen"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:RB   rdf:type           skos:Concept;
-        dc:identifier      "RB";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "rhyoliet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:AF   rdf:type           skos:Concept;
-        dc:identifier      "AF";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "afval"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:GS   rdf:type           skos:Concept;
-        dc:identifier      "GS";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "groensteen"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:DD   rdf:type           skos:Concept;
-        dc:identifier      "DD";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "dolerriet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:KC   rdf:type           skos:Concept;
-        dc:identifier      "KC";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "kalkschiefer"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:GB   rdf:type           skos:Concept;
-        dc:identifier      "GB";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "gabbro"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:PM   rdf:type           skos:Concept;
-        dc:identifier      "PM";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "puimsteen"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:CA   rdf:type           skos:Concept;
-        dc:identifier      "CA";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "carbonaatfragmenten"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:IN   rdf:type           skos:Concept;
-        dc:identifier      "IN";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "intrusief gesteente"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:SK   rdf:type           skos:Concept;
-        dc:identifier      "SK";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "schieferige kalkst."@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:GH   rdf:type           skos:Concept;
-        dc:identifier      "GH";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "groenshist"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:PS   rdf:type           skos:Concept;
-        dc:identifier      "PS";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "psammiet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:WA   rdf:type           skos:Concept;
-        dc:identifier      "WA";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "wacksteen"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:FE   rdf:type           skos:Concept;
-        dc:identifier      "FE";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "ijzer"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:PB   rdf:type           skos:Concept;
-        dc:identifier      "PB";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "peridodiet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:LA   rdf:type           skos:Concept;
-        dc:identifier      "LA";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "lateriet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:AR   rdf:type           skos:Concept;
-        dc:identifier      "AR";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "areniet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:KO   rdf:type           skos:Concept;
-        dc:identifier      "KO";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "komatiet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:AA   rdf:type           skos:Concept;
-        dc:identifier      "AA";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "amfiboliet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:PY   rdf:type           skos:Concept;
-        dc:identifier      "PY";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "pyriet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:ZE   rdf:type           skos:Concept;
-        dc:identifier      "ZE";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "zeepsteen"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:SF   rdf:type           skos:Concept;
-        dc:identifier      "SF";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "schelpfragmenten"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:LG   rdf:type           skos:Concept;
-        dc:identifier      "LG";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "ligniet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:AG   rdf:type           skos:Concept;
-        dc:identifier      "AG";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "as"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:DE   rdf:type           skos:Concept;
-        dc:identifier      "DE";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "duniet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:GC   rdf:type           skos:Concept;
-        dc:identifier      "GC";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "gips"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:ZK   rdf:type           skos:Concept;
-        dc:identifier      "ZK";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "kalkzandsteen"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:CB   rdf:type           skos:Concept;
-        dc:identifier      "CB";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "conglomeraat/breccie"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:SL   rdf:type           skos:Concept;
-        dc:identifier      "SL";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "slib"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:OK   rdf:type           skos:Concept;
-        dc:identifier      "OK";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "oölitische kalksteen"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:GZ   rdf:type           skos:Concept;
-        dc:identifier      "GZ";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "grof zand"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:DK   rdf:type           skos:Concept;
-        dc:identifier      "DK";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "dolom kalksteen"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:GI   rdf:type           skos:Concept;
-        dc:identifier      "GI";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "glimmers"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:ME   rdf:type           skos:Concept;
-        dc:identifier      "ME";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "mergel"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:PC   rdf:type           skos:Concept;
-        dc:identifier      "PC";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "poederkool"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:LS   rdf:type           skos:Concept;
-        dc:identifier      "LS";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "leisteen"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:SA   rdf:type           skos:Concept;
-        dc:identifier      "SA";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "sideriet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:RO   rdf:type           skos:Concept;
-        dc:identifier      "RO";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "rots"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:EC   rdf:type           skos:Concept;
-        dc:identifier      "EC";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "eclogiet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:HA   rdf:type           skos:Concept;
-        dc:identifier      "HA";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "haliet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:NN   rdf:type           skos:Concept;
-        dc:identifier      "NN";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "nummulieten"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:AB   rdf:type           skos:Concept;
-        dc:identifier      "AB";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "andesiet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:SX   rdf:type           skos:Concept;
-        dc:identifier      "SX";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "silex"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:SG   rdf:type           skos:Concept;
-        dc:identifier      "SG";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "schelpgruis"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:BK   rdf:type           skos:Concept;
-        dc:identifier      "BK";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "baksteen"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:VE   rdf:type           skos:Concept;
-        dc:identifier      "VE";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "veen"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:GD   rdf:type           skos:Concept;
-        dc:identifier      "GD";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "gneiss"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:CT   rdf:type           skos:Concept;
-        dc:identifier      "CT";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "chert (gebande)"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:ZL   rdf:type           skos:Concept;
-        dc:identifier      "ZL";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "zandleem"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:FA   rdf:type           skos:Concept;
-        dc:identifier      "FA";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "fosforiet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:AN   rdf:type           skos:Concept;
-        dc:identifier      "AN";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "antropogeen niet vloeistofdicht"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:DL   rdf:type           skos:Concept;
-        dc:identifier      "DL";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "dolomiet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:PU   rdf:type           skos:Concept;
-        dc:identifier      "PU";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "puin"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:SS   rdf:type           skos:Concept;
-        dc:identifier      "SS";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "siltsteen"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:FG   rdf:type           skos:Concept;
-        dc:identifier      "FG";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "fijn grind"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:PD   rdf:type           skos:Concept;
-        dc:identifier      "PD";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "pyroxeniet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:AT   rdf:type           skos:Concept;
-        dc:identifier      "AT";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "asfalt"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:HB   rdf:type           skos:Concept;
-        dc:identifier      "HB";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "hematiet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:AC   rdf:type           skos:Concept;
-        dc:identifier      "AC";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "anhydriet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:DA   rdf:type           skos:Concept;
-        dc:identifier      "DA";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "daciet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:CO   rdf:type           skos:Concept;
-        dc:identifier      "CO";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "steenkool"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:SY   rdf:type           skos:Concept;
-        dc:identifier      "SY";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "shist"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:SH   rdf:type           skos:Concept;
-        dc:identifier      "SH";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "schalie"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:LI   rdf:type           skos:Concept;
-        dc:identifier      "LI";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "limoniet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:RV   rdf:type           skos:Concept;
-        dc:identifier      "RV";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "verweerde rots"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:KW   rdf:type           skos:Concept;
-        dc:identifier      "KW";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "kwartsiet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:GE   rdf:type           skos:Concept;
-        dc:identifier      "GE";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "graniet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:MA   rdf:type           skos:Concept;
-        dc:identifier      "MA";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "marmer"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:SN   rdf:type           skos:Concept;
-        dc:identifier      "SN";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "steenfragmenten"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:OM   rdf:type           skos:Concept;
-        dc:identifier      "OM";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "organisch materiaal"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:BA   rdf:type           skos:Concept;
-        dc:identifier      "BA";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "basalt"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:XX   rdf:type           skos:Concept;
-        dc:identifier      "XX";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "onbekend"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:KL   rdf:type           skos:Concept;
-        dc:identifier      "KL";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "klei"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:XG   rdf:type           skos:Concept;
-        dc:identifier      "XG";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "grind"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:FY   rdf:type           skos:Concept;
-        dc:identifier      "FY";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "fylliet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:MG   rdf:type           skos:Concept;
-        dc:identifier      "MG";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "middelmatig grind"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:ST   rdf:type           skos:Concept;
-        dc:identifier      "ST";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "stenen"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:ZS   rdf:type           skos:Concept;
-        dc:identifier      "ZS";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "zandsteen"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-colt:hoofdnaam  rdf:type      skos:Collection;
-        dc:identifier         "hoofdnaam";
-        skos:inScheme         <file:///tmp/RtmppsoAyN/cs>;
-        skos:mappingRelation  <file:///tmp/RtmppsoAyN/hoofdnaam>;
-        skos:member           ct:AV , ct:SL , ct:SN , ct:MA , ct:LE , ct:XX , ct:HC , ct:PB , ct:EA , ct:DE , ct:SK , ct:SI , ct:AG , ct:RO , ct:ZS , ct:GH , ct:DD , ct:GS , ct:RV , ct:FY , ct:RB , ct:GG , ct:VA , ct:GE , ct:CO , ct:BS , ct:PS , ct:AT , ct:MI , ct:AR , ct:SH , ct:PD , ct:LA , ct:SG , ct:DA , ct:SE , ct:AC , ct:DL , ct:GB , ct:OM , ct:VE , ct:MZ , ct:GM , ct:KC , ct:KA , ct:IN , ct:MY , ct:CA , ct:BC , ct:PA , ct:ST , ct:AF , ct:MG , ct:LI , ct:KT , ct:DC , ct:SS , ct:AE , ct:KL , ct:RA , ct:GF , ct:KS , ct:HB , ct:FG , ct:WA , ct:NN , ct:ZL , ct:FA , ct:QU , ct:LS , ct:PC , ct:PM , ct:BT , ct:BB , ct:AD , ct:SF , ct:SP , ct:TB , ct:AB , ct:DK , ct:PL , ct:TS , ct:XZ , ct:IA , ct:SY , ct:EC , ct:AW , ct:SO , ct:AA , ct:KB , ct:HD , ct:KO , ct:CB , ct:FO , ct:FE , ct:FZ , ct:BK , ct:PU , ct:MS , ct:TA , ct:XG , ct:HU , ct:SX , ct:ME , ct:LG , ct:AN , ct:KR , ct:HT , ct:GZ , ct:HA , ct:SC , ct:GL , ct:KW , ct:SA , ct:ZK , ct:OK , ct:CT , ct:GD , ct:ZE , ct:DB , ct:VS , ct:GI , ct:GC , ct:PY , ct:BA , ct:GA , ct:MB , ct:MM;
-        skos:prefLabel        "Collectie van hoofdnaam."@nl .
-
-ct:SC   rdf:type           skos:Concept;
-        dc:identifier      "SC";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "schelpen"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:VA   rdf:type           skos:Concept;
-        dc:identifier      "VA";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "vulkanisch gesteente"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:HT   rdf:type           skos:Concept;
-        dc:identifier      "HT";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "houtresten"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:KR   rdf:type           skos:Concept;
-        dc:identifier      "KR";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "krijt"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:HC   rdf:type           skos:Concept;
-        dc:identifier      "HC";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "houtskool"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:AD   rdf:type           skos:Concept;
-        dc:identifier      "AD";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "ankeriet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:KA   rdf:type           skos:Concept;
-        dc:identifier      "KA";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "kalk"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:DB   rdf:type           skos:Concept;
-        dc:identifier      "DB";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "diatomiet"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:MM   rdf:type           skos:Concept;
-        dc:identifier      "MM";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "metamorf gesteente"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
-
-ct:SI   rdf:type           skos:Concept;
-        dc:identifier      "SI";
-        skos:inScheme      cs:hoofdnaam;
-        skos:prefLabel     "silt"@nl;
-        skos:topConceptOf  cs:hoofdnaam .
+@prefix concept: <https://data.bodemenondergrond.vlaanderen.be/id/concept/hoofdnaam/>.
+@prefix collectie: <https://data.bodemenondergrond.vlaanderen.be/id/collection/hoofdnaam/>.
+@prefix access_right: <http://publications.europa.eu/resource/authority/access-right/>.
+@prefix adms: <http://www.w3.org/ns/adms#>.
+@prefix assettype: <http://purl.org/adms/assettype/>.
+@prefix conceptscheme: <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/>.
+@prefix country: <http://publications.europa.eu/resource/authority/country/>.
+@prefix datasets: <https://datasets.omgeving.vlaanderen.be/>.
+@prefix datatheme_be: <http://vocab.belgif.be/auth/datatheme/>.
+@prefix datatheme_eu: <http://publications.europa.eu/resource/authority/data-theme/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix eurovoc: <http://eurovoc.europa.eu/>.
+@prefix file_type: <http://publications.europa.eu/resource/authority/file-type/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix formats: <http://www.w3.org/ns/formats/>.
+@prefix frequency: <http://publications.europa.eu/resource/authority/frequency/>.
+@prefix gemet: <http://www.eionet.europa.eu/gemet/concept/>.
+@prefix licence: <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/>.
+@prefix metadata: <https://data.omgeving.vlaanderen.be/ns/metadata#>.
+@prefix omg_catalog: <https://data.bodemenondergrond.vlaanderen.be/id/catalog/>.
+@prefix omg_catalog_doc: <https://data.bodemenondergrond.vlaanderen.be/doc/catalog/>.
+@prefix omg_collection: <https://data.bodemenondergrond.vlaanderen.be/id/collection/>.
+@prefix omg_dataservice: <https://data.bodemenondergrond.vlaanderen.be/id/dataservice/>.
+@prefix omg_dataset_doc: <https://data.bodemenondergrond.vlaanderen.be/doc/dataset/>.
+@prefix omg_dataset: <https://data.bodemenondergrond.vlaanderen.be/id/dataset/>.
+@prefix omg_distribution_doc: <https://data.bodemenondergrond.vlaanderen.be/doc/distribution/>.
+@prefix omg_distribution: <https://data.bodemenondergrond.vlaanderen.be/id/distribution/>.
+@prefix omg_graphcollection: <https://data.bodemenondergrond.vlaanderen.be/id/graphcollection/>.
+@prefix omg_graph: <https://data.bodemenondergrond.vlaanderen.be/id/graph/>.
+@prefix omg_id: <https://data.bodemenondergrond.vlaanderen.be/id/>.
+@prefix omg_named_graph: <https://data.bodemenondergrond.vlaanderen.be/id/namedgraph/>.
+@prefix omg_ontology: <https://data.bodemenondergrond.vlaanderen.be/id/ontology/>.
+@prefix omg_package: <https://data.bodemenondergrond.vlaanderen.be/id/package/>.
+@prefix omg_periodoftime: <https://data.bodemenondergrond.vlaanderen.be/id/periodoftime/>.
+@prefix omg_service: <https://data.bodemenondergrond.vlaanderen.be/id/service/>.
+@prefix omg_vcard: <https://data.bodemenondergrond.vlaanderen.be/id/vcard/>.
+@prefix ovo: <http://data.vlaanderen.be/id/organisatie/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix repo: <https://repo.omgeving.vlaanderen.be/artifactory/release/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix spdx: <http://spdx.org/rdf/terms#>.
+@prefix ssd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix ts: <http://www.w3.org/ns/formats/>.
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+@prefix wise: <http://dd.eionet.europa.eu/vocabulary/wise/ObservedProperty/>.
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+collectie:hoofdnaam dc:identifier "be.vlaanderen.bodemenondergrond.data.id.collection.hoofdnaam.hoofdnaam";
+    a skos:Collection;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:member concept:aa, concept:ab, concept:ac, concept:ad, concept:ae, concept:af, concept:ag, concept:an, concept:ar, concept:at, concept:av, concept:aw, concept:ba, concept:bb, concept:bc, concept:bk, concept:bs, concept:bt, concept:ca, concept:cb, concept:co, concept:ct, concept:da, concept:db, concept:dc, concept:dd, concept:de, concept:dk, concept:dl, concept:ea, concept:ec, concept:fa, concept:fe, concept:fg, concept:fo, concept:fy, concept:fz, concept:ga, concept:gb, concept:gc, concept:gd, concept:ge, concept:gf, concept:gg, concept:gh, concept:gi, concept:gl, concept:gm, concept:gs, concept:gz, concept:ha, concept:hb, concept:hc, concept:hd, concept:ht, concept:hu, concept:ia, concept:in, concept:ka, concept:kb, concept:kc, concept:kl, concept:ko, concept:kr, concept:ks, concept:kt, concept:kw, concept:la, concept:le, concept:lg, concept:li, concept:ls, concept:ma, concept:mb, concept:me, concept:mg, concept:mi, concept:mm, concept:ms, concept:my, concept:mz, concept:nn, concept:ok, concept:om, concept:pa, concept:pb, concept:pc, concept:pd, concept:pl, concept:pm, concept:ps, concept:pu, concept:py, concept:qu, concept:ra, concept:rb, concept:ro, concept:rv, concept:sa, concept:sc, concept:se, concept:sf, concept:sg, concept:sh, concept:si, concept:sk, concept:sl, concept:sn, concept:so, concept:sp, concept:ss, concept:st, concept:sx, concept:sy, concept:ta, concept:tb, concept:ts, concept:va, concept:ve, concept:vs, concept:wa, concept:xg, concept:xx, concept:xz, concept:ze, concept:zk, concept:zl, concept:zs;
+    skos:prefLabel "Collectie van hoofdnaam."@nl.
+concept:aa dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.aa";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "AA";
+    skos:prefLabel "amfiboliet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:ab dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ab";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "AB";
+    skos:prefLabel "andesiet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:ac dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ac";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "AC";
+    skos:prefLabel "anhydriet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:ad dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ad";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "AD";
+    skos:prefLabel "ankeriet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:ae dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ae";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "AE";
+    skos:prefLabel "arkose"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:af dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.af";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "AF";
+    skos:prefLabel "afval"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:ag dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ag";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "AG";
+    skos:prefLabel "as"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:an dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.an";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "AN";
+    skos:prefLabel "antropogeen niet vloeistofdicht"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:ar dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ar";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "AR";
+    skos:prefLabel "areniet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:at dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.at";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "AT";
+    skos:prefLabel "asfalt"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:av dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.av";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "AV";
+    skos:prefLabel "antropogeen vloeistofdicht"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:aw dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.aw";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "AW";
+    skos:prefLabel "antropogeen weinig vloeistofdicht"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:ba dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ba";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "BA";
+    skos:prefLabel "basalt"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:bb dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.bb";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "BB";
+    skos:prefLabel "bauxiet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:bc dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.bc";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "BC";
+    skos:prefLabel "bentoniet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:bk dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.bk";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "BK";
+    skos:prefLabel "baksteen"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:bs dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.bs";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "BS";
+    skos:prefLabel "blauwshist"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:bt dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.bt";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "BT";
+    skos:prefLabel "beton"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:ca dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ca";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "CA";
+    skos:prefLabel "carbonaatfragmenten"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:cb dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.cb";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "CB";
+    skos:prefLabel "conglomeraat/breccie"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:co dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.co";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "CO";
+    skos:prefLabel "steenkool"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:ct dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ct";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "CT";
+    skos:prefLabel "chert (gebande)"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:da dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.da";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "DA";
+    skos:prefLabel "daciet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:db dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.db";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "DB";
+    skos:prefLabel "diatomiet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:dc dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.dc";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "DC";
+    skos:prefLabel "dioriet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:dd dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.dd";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "DD";
+    skos:prefLabel "dolerriet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:de dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.de";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "DE";
+    skos:prefLabel "duniet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:dk dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.dk";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "DK";
+    skos:prefLabel "dolom kalksteen"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:dl dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.dl";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "DL";
+    skos:prefLabel "dolomiet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:ea dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ea";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "EA";
+    skos:prefLabel "evaporiet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:ec dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ec";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "EC";
+    skos:prefLabel "eclogiet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:fa dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.fa";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "FA";
+    skos:prefLabel "fosforiet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:fe dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.fe";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "FE";
+    skos:prefLabel "ijzer"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:fg dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.fg";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "FG";
+    skos:prefLabel "fijn grind"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:fo dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.fo";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "FO";
+    skos:prefLabel "fossielen"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:fy dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.fy";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "FY";
+    skos:prefLabel "fylliet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:fz dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.fz";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "FZ";
+    skos:prefLabel "fijn zand"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:ga dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ga";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "GA";
+    skos:prefLabel "geroerd / gestoord"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:gb dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.gb";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "GB";
+    skos:prefLabel "gabbro"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:gc dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.gc";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "GC";
+    skos:prefLabel "gips"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:gd dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.gd";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "GD";
+    skos:prefLabel "gneiss"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:ge dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ge";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "GE";
+    skos:prefLabel "graniet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:gf dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.gf";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "GF";
+    skos:prefLabel "granodioriet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:gg dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.gg";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "GG";
+    skos:prefLabel "grof grind"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:gh dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.gh";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "GH";
+    skos:prefLabel "groenshist"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:gi dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.gi";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "GI";
+    skos:prefLabel "glimmers"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:gl dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.gl";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "GL";
+    skos:prefLabel "glauconiet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:gm dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.gm";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "GM";
+    skos:prefLabel "gespleten metamorf"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:gs dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.gs";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "GS";
+    skos:prefLabel "groensteen"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:gz dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.gz";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "GZ";
+    skos:prefLabel "grof zand"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:ha dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ha";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "HA";
+    skos:prefLabel "haliet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:hb dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.hb";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "HB";
+    skos:prefLabel "hematiet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:hc dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.hc";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "HC";
+    skos:prefLabel "houtskool"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:hd dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.hd";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "HD";
+    skos:prefLabel "hornfels"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:ht dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ht";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "HT";
+    skos:prefLabel "houtresten"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:hu dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.hu";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "HU";
+    skos:prefLabel "humus"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:ia dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ia";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "IA";
+    skos:prefLabel "ijzerooliet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:in dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.in";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "IN";
+    skos:prefLabel "intrusief gesteente"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:ka dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ka";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "KA";
+    skos:prefLabel "kalk"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:kb dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.kb";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "KB";
+    skos:prefLabel "kalksteenbreccie"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:kc dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.kc";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "KC";
+    skos:prefLabel "kalkschiefer"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:kl dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.kl";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "KL";
+    skos:prefLabel "klei"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:ko dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ko";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "KO";
+    skos:prefLabel "komatiet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:kr dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.kr";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "KR";
+    skos:prefLabel "krijt"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:ks dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ks";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "KS";
+    skos:prefLabel "kalksteen"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:kt dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.kt";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "KT";
+    skos:prefLabel "kleisteen"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:kw dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.kw";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "KW";
+    skos:prefLabel "kwartsiet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:la dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.la";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "LA";
+    skos:prefLabel "lateriet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:le dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.le";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "LE";
+    skos:prefLabel "leem"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:lg dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.lg";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "LG";
+    skos:prefLabel "ligniet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:li dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.li";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "LI";
+    skos:prefLabel "limoniet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:ls dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ls";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "LS";
+    skos:prefLabel "leisteen"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:ma dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ma";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "MA";
+    skos:prefLabel "marmer"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:mb dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.mb";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "MB";
+    skos:prefLabel "micashist"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:me dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.me";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "ME";
+    skos:prefLabel "mergel"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:mg dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.mg";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "MG";
+    skos:prefLabel "middelmatig grind"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:mi dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.mi";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "MI";
+    skos:prefLabel "migmatiet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:mm dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.mm";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "MM";
+    skos:prefLabel "metamorf gesteente"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:ms dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ms";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "MS";
+    skos:prefLabel "schiefer"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:my dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.my";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "MY";
+    skos:prefLabel "myloniet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:mz dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.mz";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "MZ";
+    skos:prefLabel "middelmatig zand"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:nn dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.nn";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "NN";
+    skos:prefLabel "nummulieten"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:ok dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ok";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "OK";
+    skos:prefLabel "oölitische kalksteen"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:om dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.om";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "OM";
+    skos:prefLabel "organisch materiaal"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:pa dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.pa";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "PA";
+    skos:prefLabel "pegmatiet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:pb dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.pb";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "PB";
+    skos:prefLabel "peridodiet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:pc dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.pc";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "PC";
+    skos:prefLabel "poederkool"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:pd dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.pd";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "PD";
+    skos:prefLabel "pyroxeniet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:pl dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.pl";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "PL";
+    skos:prefLabel "plantenresten"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:pm dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.pm";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "PM";
+    skos:prefLabel "puimsteen"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:ps dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ps";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "PS";
+    skos:prefLabel "psammiet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:pu dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.pu";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "PU";
+    skos:prefLabel "puin"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:py dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.py";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "PY";
+    skos:prefLabel "pyriet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:qu dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.qu";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "QU";
+    skos:prefLabel "kwarts"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:ra dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ra";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "RA";
+    skos:prefLabel "radiolariet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:rb dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.rb";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "RB";
+    skos:prefLabel "rhyoliet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:ro dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ro";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "RO";
+    skos:prefLabel "rots"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:rv dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.rv";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "RV";
+    skos:prefLabel "verweerde rots"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:sa dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.sa";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "SA";
+    skos:prefLabel "sideriet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:sc dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.sc";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "SC";
+    skos:prefLabel "schelpen"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:se dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.se";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "SE";
+    skos:prefLabel "sedimentair"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:sf dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.sf";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "SF";
+    skos:prefLabel "schelpfragmenten"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:sg dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.sg";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "SG";
+    skos:prefLabel "schelpgruis"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:sh dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.sh";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "SH";
+    skos:prefLabel "schalie"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:si dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.si";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "SI";
+    skos:prefLabel "silt"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:sk dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.sk";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "SK";
+    skos:prefLabel "schieferige kalkst."@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:sl dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.sl";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "SL";
+    skos:prefLabel "slib"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:sn dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.sn";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "SN";
+    skos:prefLabel "steenfragmenten"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:so dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.so";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "SO";
+    skos:prefLabel "scoria"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:sp dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.sp";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "SP";
+    skos:prefLabel "serpentiniet"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:ss dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ss";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "SS";
+    skos:prefLabel "siltsteen"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:st dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.st";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "ST";
+    skos:prefLabel "stenen"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:sx dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.sx";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "SX";
+    skos:prefLabel "silex"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:sy dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.sy";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "SY";
+    skos:prefLabel "shist"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:ta dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ta";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "TA";
+    skos:prefLabel "teelaarde"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:tb dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.tb";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "TB";
+    skos:prefLabel "tuff"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:ts dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ts";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "TS";
+    skos:prefLabel "tufsteen (tuffeau)"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:va dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.va";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "VA";
+    skos:prefLabel "vulkanisch gesteente"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:ve dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ve";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "VE";
+    skos:prefLabel "veen"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:vs dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.vs";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "VS";
+    skos:prefLabel "vuursteen"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:wa dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.wa";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "WA";
+    skos:prefLabel "wacksteen"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:xg dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.xg";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "XG";
+    skos:prefLabel "grind"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:xx dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.xx";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "XX";
+    skos:prefLabel "onbekend"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:xz dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.xz";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "XZ";
+    skos:prefLabel "zand"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:ze dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ze";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "ZE";
+    skos:prefLabel "zeepsteen"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:zk dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.zk";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "ZK";
+    skos:prefLabel "kalkzandsteen"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:zl dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.zl";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "ZL";
+    skos:prefLabel "zandleem"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:zs dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.zs";
+    a skos:Concept;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:notation "ZS";
+    skos:prefLabel "zandsteen"@nl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+conceptscheme:hoofdnaam dc:identifier "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.hoofdnaam";
+    a skos:ConceptScheme;
+    skos:hasTopConcept concept:aa, concept:ab, concept:ac, concept:ad, concept:ae, concept:af, concept:ag, concept:an, concept:ar, concept:at, concept:av, concept:aw, concept:ba, concept:bb, concept:bc, concept:bk, concept:bs, concept:bt, concept:ca, concept:cb, concept:co, concept:ct, concept:da, concept:db, concept:dc, concept:dd, concept:de, concept:dk, concept:dl, concept:ea, concept:ec, concept:fa, concept:fe, concept:fg, concept:fo, concept:fy, concept:fz, concept:ga, concept:gb, concept:gc, concept:gd, concept:ge, concept:gf, concept:gg, concept:gh, concept:gi, concept:gl, concept:gm, concept:gs, concept:gz, concept:ha, concept:hb, concept:hc, concept:hd, concept:ht, concept:hu, concept:ia, concept:in, concept:ka, concept:kb, concept:kc, concept:kl, concept:ko, concept:kr, concept:ks, concept:kt, concept:kw, concept:la, concept:le, concept:lg, concept:li, concept:ls, concept:ma, concept:mb, concept:me, concept:mg, concept:mi, concept:mm, concept:ms, concept:my, concept:mz, concept:nn, concept:ok, concept:om, concept:pa, concept:pb, concept:pc, concept:pd, concept:pl, concept:pm, concept:ps, concept:pu, concept:py, concept:qu, concept:ra, concept:rb, concept:ro, concept:rv, concept:sa, concept:sc, concept:se, concept:sf, concept:sg, concept:sh, concept:si, concept:sk, concept:sl, concept:sn, concept:so, concept:sp, concept:ss, concept:st, concept:sx, concept:sy, concept:ta, concept:tb, concept:ts, concept:va, concept:ve, concept:vs, concept:wa, concept:xg, concept:xx, concept:xz, concept:ze, concept:zk, concept:zl, concept:zs;
+    skos:prefLabel "lijst van hoofdnamen"@nl.
