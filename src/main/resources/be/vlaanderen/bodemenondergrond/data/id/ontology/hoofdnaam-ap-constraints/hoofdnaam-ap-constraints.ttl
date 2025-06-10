@@ -4,49 +4,52 @@
 @prefix xsd:           <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos:          <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:          <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix omg_dataset:   <https://data.bodemenondergrond.vlaanderen.be/id/dataset/> .
+@prefix beo_dataset:   <https://data.bodemenondergrond.vlaanderen.be/id/dataset/> .
 @prefix dct:           <http://purl.org/dc/terms/> .
 @prefix sh:            <http://www.w3.org/ns/shacl#> .
-@prefix omg_ont:       <https://data.bodemenondergrond.vlaanderen.be/id/ontology/> .
-@prefix omg_ag_cl:     <https://data.bodemenondergrond.vlaanderen.be/id/person/codelijst/> .
-@prefix omg_voc:       <https://data.bodemenondergrond.vlaanderen.be/ns/> .
+@prefix beo_ont:       <https://data.bodemenondergrond.vlaanderen.be/id/ontology/> .
+@prefix beo_ag_cl:     <https://data.bodemenondergrond.vlaanderen.be/id/person/codelijst/> .
+@prefix beo_voc:       <https://data.bodemenondergrond.vlaanderen.be/ns/> .
 @prefix vl_org:        <http://data.vlaanderen.be/id/organisatie/> .
 @prefix xkos:          <http://rdf-vocabulary.ddialliance.org/xkos#> .
-@prefix dbo:           <http://dbpedia.org/ontology/> .
-@prefix vcs:            <https://data.vlaanderen.be/ns/sommatie_stoffen#> .
-@prefix dbp:           <http://dbpedia.org/property/> .
 @prefix omg_ps:        <https://data.bodemenondergrond.vlaanderen.be/id/propertyshape/> .
 @prefix rdf:           <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ons:           <https://data.bodemenondergrond.vlaanderen.be/id/nodeshape/> .
 @prefix schema:        <http://schema.org/> .
 @prefix foaf:          <http://xmlns.com/foaf/0.1/> .
-@prefix dcat:     <http://www.w3.org/ns/dcat#> .
-@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcat:          <http://www.w3.org/ns/dcat#> .
+@prefix dc:            <http://purl.org/dc/elements/1.1/>.
 
-omg_ont:hoofdnaam
+beo_ont:hoofdnaam
     a               owl:Ontology ;
     rdfs:comment
                     "Specifieert hoe de data in de codelijst van Hoofdnamen te encoderen in RDF (i.e. RDF termen, kardinaliteiten,...)."@en ;
     rdfs:label      "Hoofdnamen AP Constraints Limited"@en ;
     dct:abstract    "Het Hoofdnamen applicatieprofiel specifieert de RDF termen (klassen en properties) en bijhorende constraints die gebruikt worden voor het beschrijven van Hoofdnamen. Het maakt hierbij zoveel mogelijk gebruik van bestaande termen (klassen en properties) uit bestaande , skos, dbo, dbp en een minimale set van nieuwe termen gedefinieerd in het Hoofdnamen Vocabularium."@en ;
     dct:alternative "Hoofdnamen AP Shapes"@en ;
-    dct:creator     omg_ag_cl:creator ;
+    dct:creator     beo_ag_cl:creator ;
     dct:description "Dit is de SHACL encodering van het applicatieprofiel van een Hoofdnamen dat de eerste stap van de transformatie vanuit csv controleert."@en ;
     dct:issued      "2023-10-23"^^xsd:date ;
     dct:title       "Hoofdnamen AP Constraints Limited"@en ;
-    xkos:belongsTo  omg_dataset:codelijst-hoofdnaam ;
-    xhv:last        omg_voc:hoofdnaam ;
-    owl:sameAs      omg_voc:hoofdnaam ;
-    owl:versionInfo "Versie 3.0.0  maart 2024"@en .
+    xkos:belongsTo  beo_dataset:codelijst-hoofdnaam ;
+    xhv:last        beo_voc:hoofdnaam ;
+    owl:sameAs      beo_voc:hoofdnaam ;
+    owl:versionInfo "Versie 1.0.0 juni 2025"@en .
 
 
-omg_voc:hoofdnaam
+beo_voc:hoofdnaam
     a          owl:Ontology ;
     rdfs:label "Hoofdnaam AP Constraints"@en ;
-    owl:sameAs omg_ont:hoofdnaam .
+    owl:sameAs beo_ont:hoofdnaam .
 
 
-
+beo_ag_cl:creator
+    rdfs:label "Ontwikkelaar codelijst"@en ;
+    schema:affiliation vl_org:OVO003749 ;
+    a foaf:Person;
+    foaf:firstName "Geert";
+    foaf:lastName "Van Haute";
+    foaf:mbox <mailto:geert.vanhaute@vlaanderen.be>.
 
 # Node Shapes
 ons:schema
@@ -54,7 +57,7 @@ ons:schema
     rdfs:label       "conceptschema van hoofdnamen"@en ;
     sh:name          "conceptschema van hoofdnamen"@en ;
     sh:description   "Het schema waarbinnen de hoofdnamen gedefinieerd zijn"@en ;
-    rdfs:isDefinedBy omg_ont:hoofdnaam, omg_voc:hoofdnaam ;
+    rdfs:isDefinedBy beo_ont:hoofdnaam, beo_voc:hoofdnaam ;
     sh:property      omg_ps:conceptscheme_prefLabel, omg_ps:schema_hasTopConcept, omg_ps:dc_identifier, omg_ps:notation, omg_ps:note,
                      omg_ps:definition, omg_ps:rdf_type;
     sh:closed true ;
@@ -67,7 +70,7 @@ ons:collection
     rdfs:label       "verzameling"@en ;
     sh:name          "verzameling"@en ;
     sh:description   "Verzamelingen bundelen hoofdnamen met gelijkaardige eigenschappen, analysemethoden of hoofdnamen waarin ze gemeten worden."@en ;
-    rdfs:isDefinedBy omg_ont:hoofdnaam, omg_voc:hoofdnaam ;
+    rdfs:isDefinedBy beo_ont:hoofdnaam, beo_voc:hoofdnaam ;
     sh:property      omg_ps:prefLabel, omg_ps:collection_member, omg_ps:dc_identifier, omg_ps:notation,
                      omg_ps:inScheme, omg_ps:rdf_type;
     sh:closed true ;
@@ -75,22 +78,22 @@ ons:collection
 
 
 
-ons:matrix
+ons:concept
     a                sh:NodeShape ;
-    rdfs:label       "matrix"@en ;
-    sh:name          "matrix"@en ;
-    sh:description   "analysemethodes"@en ;
+    rdfs:label       "hoofdnaam"@en ;
+    sh:name          "hoofdnaam"@en ;
+    sh:description   "hoofdnaam"@en ;
     rdfs:comment     "compendia onderhouden door VITO"@en ;
-    rdfs:isDefinedBy omg_ont:hoofdnaam, omg_voc:hoofdnaam ;
+    rdfs:isDefinedBy beo_ont:hoofdnaam, beo_voc:hoofdnaam ;
     sh:property      omg_ps:notation, omg_ps:inScheme,
                      omg_ps:references, omg_ps:definition,
                      omg_ps:prefLabel, omg_ps:theme,
                      omg_ps:topConceptOf, omg_ps:altLabel, omg_ps:dc_identifier,
-                     omg_ps:rdf_type, omg_ps:note ;
+                     omg_ps:rdf_type, omg_ps:note, omg_ps:broaderTransitive, omg_ps:broader,
+                     omg_ps:narrowerTransitive, omg_ps:narrower, omg_ps:semanticRelation ,
+                     omg_ps:seeAlso, omg_ps:exactMatch,omg_ps:conformsTo, omg_ps:mappingRelation , omg_ps:closeMatch;
     sh:closed true ;
     sh:targetClass   skos:Concept .
-
-
 
 # Property Shapes
 
@@ -99,19 +102,39 @@ omg_ps:rdf_type
     rdfs:label       "rdf type"@en ;
     sh:name          "rdf type"@en ;
     sh:description   "Aanduiding dat een bron een instantie van een bepaalde klasse is."@en ;
-    rdfs:isDefinedBy omg_ont:hoofdnaam, omg_voc:hoofdnaam ;
+    rdfs:isDefinedBy beo_ont:hoofdnaam, beo_voc:hoofdnaam ;
     sh:maxCount      1 ;
     sh:minCount      1 ;
     sh:nodeKind      sh:IRI ;
     sh:path          rdf:type .
 
+omg_ps:seeAlso
+    a                sh:PropertyShape ;
+    rdfs:label       "zie ook"@en ;
+    sh:name          "zie ook"@en ;
+    sh:description   "Een verwijzing naar een gelijkaardige 'resource' of een document over het onderwerp."@en ;
+    rdfs:isDefinedBy beo_ont:doelboringtype, beo_voc:doelboringtype ;
+    sh:maxCount      1 ;
+    sh:nodeKind      sh:IRI ;
+    sh:path          rdfs:seeAlso .
+
+omg_ps:conformsTo
+    a                sh:PropertyShape ;
+    rdfs:label       "conforms"@en ;
+    sh:name          "conforms"@en ;
+    sh:description   "conforms to"@en ;
+    rdfs:isDefinedBy beo_ont:doelboringtype, beo_voc:doelboringtype ;
+    sh:maxCount      1 ;
+    sh:minCount      0 ;
+    sh:nodeKind      sh:IRI ;
+    sh:path          dct:conformsTo .
 
 omg_ps:topConceptOf
     a                sh:PropertyShape ;
     rdfs:label       "topconcept van"@en ;
     sh:name          "topconcept van"@en ;
     sh:description   "De relatie tussen een concept en het schema, waarvan het een topconcept is."@en ;
-    rdfs:isDefinedBy omg_ont:hoofdnaam, omg_voc:hoofdnaam ;
+    rdfs:isDefinedBy beo_ont:hoofdnaam, beo_voc:hoofdnaam ;
     sh:class         skos:ConceptScheme ;
     sh:maxCount      1 ;
     sh:nodeKind      sh:IRI ;
@@ -123,37 +146,65 @@ omg_ps:theme
     rdfs:label       "thema"@en ;
     sh:name          "thema"@en ;
     sh:description   "De relatie naar een europees thema"@en ;
-    rdfs:isDefinedBy omg_ont:hoofdnaam, omg_voc:hoofdnaam ;
+    rdfs:isDefinedBy beo_ont:hoofdnaam, beo_voc:hoofdnaam ;
     sh:nodeKind      sh:IRI ;
     sh:path          dcat:theme .
+
+omg_ps:semanticRelation
+    a                sh:PropertyShape ;
+    rdfs:label       "gerelateerd concept"@en ;
+    sh:name          "gerelateerd concept"@en ;
+    sh:description   "gerelateerd concept."@en ;
+    rdfs:isDefinedBy beo_ont:hoofdnaam, beo_voc:hoofdnaam ;
+    sh:nodeKind      sh:IRI ;
+    sh:path          skos:semanticRelation; .
 
 omg_ps:narrower
     a                sh:PropertyShape ;
     rdfs:label       "specifieker concept"@en ;
     sh:name          "specifieker concept"@en ;
     sh:description   "De relatie tussen een concept en een nauwer, specifieker concept binnen hetzelfde schema."@en ;
-    rdfs:isDefinedBy omg_ont:hoofdnaam, omg_voc:hoofdnaam ;
+    rdfs:isDefinedBy beo_ont:hoofdnaam, beo_voc:hoofdnaam ;
     sh:class         skos:Concept ;
     sh:nodeKind      sh:IRI ;
     sh:path          skos:narrower .
 
+omg_ps:narrowerTransitive
+    a                sh:PropertyShape ;
+    rdfs:label       "specifieker concept"@en ;
+    sh:name          "specifieker concept"@en ;
+    sh:description   "De relatie tussen een concept en een nauwer, specifieker concept binnen hetzelfde schema."@en ;
+    rdfs:isDefinedBy beo_ont:hoofdnaam, beo_voc:hoofdnaam ;
+    sh:class         skos:Concept ;
+    sh:nodeKind      sh:IRI ;
+    sh:path          skos:narrowerTransitive .
 omg_ps:broader
     a                sh:PropertyShape ;
     rdfs:label       "breder concept"@en ;
     sh:name          "breder concept"@en ;
     sh:description   "De relatie tussen een concept en een breder, minder specifiek concept binnen hetzelfde schema."@en ;
-    rdfs:isDefinedBy omg_ont:hoofdnaam, omg_voc:hoofdnaam ;
+    rdfs:isDefinedBy beo_ont:hoofdnaam, beo_voc:hoofdnaam ;
     sh:class         skos:Concept ;
     sh:maxCount      1 ;
     sh:nodeKind      sh:IRI ;
     sh:path          skos:broader .
+
+omg_ps:broaderTransitive
+    a                sh:PropertyShape ;
+    rdfs:label       "breder concept"@en ;
+    sh:name          "breder concept"@en ;
+    sh:description   "De relatie tussen een concept en een breder, minder specifiek concept binnen hetzelfde schema."@en ;
+    rdfs:isDefinedBy beo_ont:hoofdnaam, beo_voc:hoofdnaam ;
+    sh:class         skos:Concept ;
+    sh:nodeKind      sh:IRI ;
+    sh:path          skos:broaderTransitive .
 
 omg_ps:topConceptOf
     a                sh:PropertyShape ;
     rdfs:label       "topconcept van"@en ;
     sh:name          "topconcept van"@en ;
     sh:description   "De relatie tussen een concept en het schema, waarvan het een topconcept is."@en ;
-    rdfs:isDefinedBy omg_ont:hoofdnaam, omg_voc:hoofdnaam ;
+    rdfs:isDefinedBy beo_ont:hoofdnaam, beo_voc:hoofdnaam ;
     sh:class         skos:ConceptScheme ;
     sh:maxCount      1 ;
     sh:nodeKind      sh:IRI ;
@@ -164,7 +215,7 @@ omg_ps:altLabel
     rdfs:label       "alternatief label"@en ;
     sh:name          "alternatief label"@en ;
     sh:description   "Een alternatief lexicaal label voor een bepaalde bron."@en ;
-    rdfs:isDefinedBy omg_ont:hoofdnaam, omg_voc:hoofdnaam ;
+    rdfs:isDefinedBy beo_ont:hoofdnaam, beo_voc:hoofdnaam ;
     sh:datatype      rdf:langString ;
     sh:languageIn    ( "nl" "en" ) ;
     sh:nodeKind      sh:Literal ;
@@ -175,7 +226,7 @@ omg_ps:collection_member
     rdfs:label       "onderdeel"@en ;
     sh:name          "onderdeel"@en ;
     sh:description   "Een collectie heeft minstens 1 onderdeel."@en ;
-    rdfs:isDefinedBy omg_ont:hoofdnaam, omg_voc:hoofdnaam ;
+    rdfs:isDefinedBy beo_ont:hoofdnaam, beo_voc:hoofdnaam ;
     sh:class         skos:Concept ;
     sh:minCount      1 ;
     sh:nodeKind      sh:IRI ;
@@ -183,21 +234,38 @@ omg_ps:collection_member
 
 
 
+omg_ps:mappingRelation
+            a                sh:PropertyShape ;
+            rdfs:label       "heeft mapping relatie"@en ;
+            sh:name          "heeft mapping relatie"@en ;
+            sh:description   "skos:mappingRelation wordt gebruikt om twee concepten te koppelen, wat aangeeft dat er een hoge mate van vertrouwen bestaat dat de concepten onderling uitwisselbaar kunnen worden gebruikt in een breed scala aan toepassingen voor het ophalen van informatie. skos:exactMatch is een transitieve eigenschap en is een subeigenschap van skos:closeMatch"@en ;
+            rdfs:isDefinedBy beo_ont:hoofdnaam, beo_voc:hoofdnaam ;
+            sh:nodeKind      sh:IRI ;
+            sh:path          skos:mappingRelation .
+
 omg_ps:exactMatch
     a                sh:PropertyShape ;
     rdfs:label       "heeft exacte overeenkomst"@en ;
     sh:name          "heeft exacte overeenkomst"@en ;
     sh:description   "skos:exactMatch wordt gebruikt om twee concepten te koppelen, wat aangeeft dat er een hoge mate van vertrouwen bestaat dat de concepten onderling uitwisselbaar kunnen worden gebruikt in een breed scala aan toepassingen voor het ophalen van informatie. skos:exactMatch is een transitieve eigenschap en is een subeigenschap van skos:closeMatch"@en ;
-    rdfs:isDefinedBy omg_ont:hoofdnaam, omg_voc:hoofdnaam ;
+    rdfs:isDefinedBy beo_ont:hoofdnaam, beo_voc:hoofdnaam ;
     sh:nodeKind      sh:IRI ;
     sh:path          skos:exactMatch .
+
+omg_ps:closeMatch  a                sh:PropertyShape ;
+                   rdfs:label       "heeft nauwe overeenkomst"@en ;
+                   sh:name          "heeft nauwe overeenkomst"@en ;
+                   sh:description   "skos:closeMatch wordt gebruikt om twee concepten te koppelen, wat aangeeft dat er een hoge mate van vertrouwen bestaat dat de concepten onderling uitwisselbaar kunnen worden gebruikt in een breed scala aan toepassingen voor het ophalen van informatie. skos:exactMatch is een transitieve eigenschap en is een subeigenschap van skos:closeMatch"@en ;
+                   rdfs:isDefinedBy beo_ont:hoofdnaam, beo_voc:hoofdnaam ;
+                   sh:nodeKind      sh:IRI ;
+                   sh:path          skos:closeMatch .
 
 omg_ps:notation
     a                sh:PropertyShape ;
     rdfs:label       "notatie"@en ;
     sh:name          "notatie"@en ;
     sh:description   "Een notatie, ook wel classificatiecode genoemd, is een reeks tekens zoals \"PCB151\" of \"EtFOSA\" die wordt gebruikt om een matrix op unieke wijze te identificeren binnen de context van dit schema."@en ;
-    rdfs:isDefinedBy omg_ont:hoofdnaam, omg_voc:hoofdnaam ;
+    rdfs:isDefinedBy beo_ont:hoofdnaam, beo_voc:hoofdnaam ;
     sh:datatype      xsd:string ;
     sh:nodeKind      sh:Literal ;
     sh:property      omg_ps:unique_notation ;
@@ -208,7 +276,7 @@ omg_ps:unique_notation
     rdfs:label         "unieke notatie"@en ;
     sh:name            "unieke notatie"@en ;
     sh:description     "Een notatie, ook wel classificatiecode genoemd, is een reeks tekens zoals \"PCB151\" of \"EtFOSA\" die wordt gebruikt om een matrix op unieke wijze te identificeren binnen de context van dit schema. Er kan vanuit verschillende classificatiesystemen, met meerdere notaties verwezen worden naar een matrix, maar een notatie is uniek voor een matrix, ttz. vanuit 1 notatie kan slechts naar 1 matrix worden verwezen."@en ;
-    rdfs:isDefinedBy   omg_ont:hoofdnaam, omg_voc:hoofdnaam ;
+    rdfs:isDefinedBy   beo_ont:hoofdnaam, beo_voc:hoofdnaam ;
     sh:nodeKind        sh:IRI ;
     sh:targetObjectsOf skos:notation ;
     sh:path            [ sh:inversePath skos:notation ] ;
@@ -220,8 +288,8 @@ omg_ps:schema_hasTopConcept
     rdfs:label       "heeft topconcept"@en ;
     sh:name          "heeft topconcept"@en ;
     sh:description   "Verbindt een conceptschema met een concept dat bovenaan in een 'broader/narrower' hierarchie staat en voorziet aldus een ingang tot die hierarchie."@en ;
-    rdfs:isDefinedBy omg_ont:hoofdnaam, omg_voc:hoofdnaam ;
-    sh:class         skos:Concept ; #dbo:ChemicalCompound, dbo:ChemicalSubstance,
+    rdfs:isDefinedBy beo_ont:hoofdnaam, beo_voc:hoofdnaam ;
+    sh:class         skos:Concept ;
     sh:minCount      1 ;
     sh:nodeKind      sh:IRI ;
     sh:path          skos:hasTopConcept .
@@ -232,7 +300,7 @@ omg_ps:references
     rdfs:label       "wordt vermeld in"@en ;
     sh:name          "wordt vermeld in"@en ;
     sh:description   "Binnen dit schema wordt dct:references gebruikt om de relatie tussen analysemethodes en wat geanalyseerd wordt te leggen, die betrekking hebben op de matrix."@en ;
-    rdfs:isDefinedBy omg_ont:hoofdnaam, omg_voc:hoofdnaam ;
+    rdfs:isDefinedBy beo_ont:hoofdnaam, beo_voc:hoofdnaam ;
     sh:nodeKind      sh:IRI ;
     sh:path          dct:references .
 
@@ -241,7 +309,7 @@ omg_ps:definition
     rdfs:label       "definitie"@en ;
     sh:name          "definitie"@en ;
     sh:description   "Een uitspraak over de betekenis van het concept, de collectie of het schema."@en ;
-    rdfs:isDefinedBy omg_ont:hoofdnaam, omg_voc:hoofdnaam ;
+    rdfs:isDefinedBy beo_ont:hoofdnaam, beo_voc:hoofdnaam ;
     sh:datatype      rdf:langString ;
     sh:languageIn    ( "nl" "en" ) ;
     sh:maxCount      2 ;
@@ -253,7 +321,7 @@ omg_ps:note
     rdfs:label       "note"@en ;
     sh:name          "note"@en ;
     sh:description   "Een uitspraak over de betekenis van het concept, de collectie of het schema."@en ;
-    rdfs:isDefinedBy omg_ont:hoofdnaam, omg_voc:hoofdnaam ;
+    rdfs:isDefinedBy beo_ont:hoofdnaam, beo_voc:hoofdnaam ;
     sh:datatype      rdf:langString ;
     sh:languageIn    ( "nl" "en" ) ;
     sh:nodeKind      sh:Literal ;
@@ -264,11 +332,11 @@ omg_ps:prefLabel
     rdfs:label       "voorkeurslabel"@en ;
     sh:name          "voorkeurslabel"@en ;
     sh:description   "Het voorkeurslabel in de Nederlandse taal. Slechts 1 voorkeurslabel is toegelaten."@en ;
-    rdfs:isDefinedBy omg_ont:hoofdnaam, omg_voc:hoofdnaam ;
+    rdfs:isDefinedBy beo_ont:hoofdnaam, beo_voc:hoofdnaam ;
     sh:datatype      rdf:langString ;
     sh:languageIn    ( "nl" ) ;
     sh:maxCount      1 ;
-    sh:minCount      1 ;
+#    sh:minCount      1 ;
     sh:nodeKind      sh:Literal ;
     sh:path          skos:prefLabel .
 
@@ -277,7 +345,7 @@ omg_ps:dc_identifier
     rdfs:label       "identifier"@en ;
     sh:name          "identifier"@en ;
     sh:description   "Een globaal unieke identificator."@en ;
-    rdfs:isDefinedBy omg_ont:hoofdnaam, omg_voc:hoofdnaam ;
+    rdfs:isDefinedBy beo_ont:hoofdnaam, beo_voc:hoofdnaam ;
     sh:datatype      xsd:string ;
     sh:maxCount      1 ;
     sh:nodeKind      sh:Literal ;
@@ -289,7 +357,7 @@ omg_ps:conceptscheme_prefLabel
     rdfs:label       "voorkeurslabel"@en ;
     sh:name          "voorkeurslabel"@en ;
     sh:description   "Het voorkeurslabel."@en ;
-    rdfs:isDefinedBy omg_ont:hoofdnaam, omg_voc:hoofdnaam ;
+    rdfs:isDefinedBy beo_ont:hoofdnaam, beo_voc:hoofdnaam ;
     sh:datatype      rdf:langString ;
     sh:languageIn    ( "en" "nl" ) ;
     sh:uniqueLang true ;
@@ -303,9 +371,9 @@ omg_ps:inScheme
     rdfs:label       "is in schema"@en ;
     sh:name          "is in schema"@en ;
     sh:description   "Drukt de relatie uit tussen een 'resource' en het schema dat het bevat."@en ;
-    rdfs:isDefinedBy omg_ont:hoofdnaam, omg_voc:hoofdnaam ;
+    rdfs:isDefinedBy beo_ont:hoofdnaam, beo_voc:hoofdnaam ;
     sh:class         skos:ConceptScheme ;
     sh:maxCount      1 ;
-    sh:minCount      1 ;
+#    sh:minCount      1 ;
     sh:nodeKind      sh:IRI ;
     sh:path          skos:inScheme .
