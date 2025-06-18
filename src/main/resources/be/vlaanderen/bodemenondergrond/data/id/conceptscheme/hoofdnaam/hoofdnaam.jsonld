@@ -553,19 +553,19 @@
             "type": "skos:Concept",
             "closeMatch": [
                 "http://inspire.ec.europa.eu/codelist/CommodityCodeValue/mica",
-                "concept:gm2"
+                "concept:gm"
             ],
             "exactMatch": [
                 "http://inspire.ec.europa.eu/codelist/CommodityCodeValue/mica",
-                "concept:gm2"
+                "concept:gm"
             ],
             "mappingRelation": [
                 "http://inspire.ec.europa.eu/codelist/CommodityCodeValue/mica",
-                "concept:gm2"
+                "concept:gm"
             ],
             "semanticRelation": [
                 "http://inspire.ec.europa.eu/codelist/CommodityCodeValue/mica",
-                "concept:gm2"
+                "concept:gm"
             ]
         },
         {
@@ -799,19 +799,19 @@
             "type": "skos:Concept",
             "closeMatch": [
                 "http://inspire.ec.europa.eu/codelist/LithologyValue/bituminousCoal",
-                "concept:co2"
+                "concept:ko"
             ],
             "exactMatch": [
                 "http://inspire.ec.europa.eu/codelist/LithologyValue/bituminousCoal",
-                "concept:co2"
+                "concept:ko"
             ],
             "mappingRelation": [
                 "http://inspire.ec.europa.eu/codelist/LithologyValue/bituminousCoal",
-                "concept:co2"
+                "concept:ko"
             ],
             "semanticRelation": [
                 "http://inspire.ec.europa.eu/codelist/LithologyValue/bituminousCoal",
-                "concept:co2"
+                "concept:ko"
             ]
         },
         {
@@ -1420,7 +1420,7 @@
             "type": "skos:Concept",
             "closeMatch": [
                 "http://inspire.ec.europa.eu/codelist/LithologyValue/metamorphicRock",
-                "concept:gm",
+                "concept:ge",
                 "concept:mm"
             ],
             "exactMatch": [
@@ -1429,12 +1429,12 @@
             ],
             "mappingRelation": [
                 "http://inspire.ec.europa.eu/codelist/LithologyValue/metamorphicRock",
-                "concept:gm",
+                "concept:ge",
                 "concept:mm"
             ],
             "semanticRelation": [
                 "http://inspire.ec.europa.eu/codelist/LithologyValue/metamorphicRock",
-                "concept:gm",
+                "concept:ge",
                 "concept:mm"
             ]
         },
@@ -2260,33 +2260,6 @@
             "topConceptOf": "conceptscheme:hoofdnaam"
         },
         {
-            "id": "concept:co2",
-            "type": "skos:Concept",
-            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.co2",
-            "closeMatch": [
-                "http://inspire.ec.europa.eu/codelist/LithologyValue/bituminousCoal",
-                "concept:co2"
-            ],
-            "definition": "Gesteente hoofdzakelijk bestaande uit organisch materiaal, gevormd na diepe begraving onder hoge druk en temperatuur.",
-            "exactMatch": [
-                "http://inspire.ec.europa.eu/codelist/LithologyValue/bituminousCoal",
-                "concept:co2"
-            ],
-            "inScheme": "conceptscheme:hoofdnaam",
-            "mappingRelation": [
-                "http://inspire.ec.europa.eu/codelist/LithologyValue/bituminousCoal",
-                "concept:co2"
-            ],
-            "notation": "CO2",
-            "note": "Gesteente hoofdzakelijk bestaande uit organisch materiaal, gevormd na diepe begraving onder hoge druk en temperatuur.",
-            "prefLabel": "steenkool",
-            "semanticRelation": [
-                "http://inspire.ec.europa.eu/codelist/LithologyValue/bituminousCoal",
-                "concept:co2"
-            ],
-            "topConceptOf": "conceptscheme:hoofdnaam"
-        },
-        {
             "id": "concept:da",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.da",
@@ -2650,6 +2623,20 @@
             "topConceptOf": "conceptscheme:hoofdnaam"
         },
         {
+            "id": "concept:ge",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ge",
+            "closeMatch": "http://inspire.ec.europa.eu/codelist/LithologyValue/metamorphicRock",
+            "definition": "Metamorf gesteente met goed ontwikkelde splijting.",
+            "inScheme": "conceptscheme:hoofdnaam",
+            "mappingRelation": "http://inspire.ec.europa.eu/codelist/LithologyValue/metamorphicRock",
+            "notation": "GE",
+            "note": "Metamorf gesteente met goed ontwikkelde splijting.",
+            "prefLabel": "gespleten metamorf",
+            "semanticRelation": "http://inspire.ec.europa.eu/codelist/LithologyValue/metamorphicRock",
+            "topConceptOf": "conceptscheme:hoofdnaam"
+        },
+        {
             "id": "concept:gg",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.gg",
@@ -2739,40 +2726,26 @@
             "id": "concept:gm",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.gm",
-            "closeMatch": "http://inspire.ec.europa.eu/codelist/LithologyValue/metamorphicRock",
-            "definition": "Metamorf gesteente met goed ontwikkelde splijting.",
-            "inScheme": "conceptscheme:hoofdnaam",
-            "mappingRelation": "http://inspire.ec.europa.eu/codelist/LithologyValue/metamorphicRock",
-            "notation": "GM",
-            "note": "Metamorf gesteente met goed ontwikkelde splijting.",
-            "prefLabel": "gespleten metamorf",
-            "semanticRelation": "http://inspire.ec.europa.eu/codelist/LithologyValue/metamorphicRock",
-            "topConceptOf": "conceptscheme:hoofdnaam"
-        },
-        {
-            "id": "concept:gm2",
-            "type": "skos:Concept",
-            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.gm2",
             "closeMatch": [
                 "http://inspire.ec.europa.eu/codelist/CommodityCodeValue/mica",
-                "concept:gm2"
+                "concept:gm"
             ],
             "definition": "Mica's, een groep van plaatvormige fylosilicaatmineralen.",
             "exactMatch": [
                 "http://inspire.ec.europa.eu/codelist/CommodityCodeValue/mica",
-                "concept:gm2"
+                "concept:gm"
             ],
             "inScheme": "conceptscheme:hoofdnaam",
             "mappingRelation": [
                 "http://inspire.ec.europa.eu/codelist/CommodityCodeValue/mica",
-                "concept:gm2"
+                "concept:gm"
             ],
-            "notation": "GM2",
+            "notation": "GM",
             "note": "Mica's, een groep van plaatvormige fylosilicaatmineralen.",
             "prefLabel": "glimmers",
             "semanticRelation": [
                 "http://inspire.ec.europa.eu/codelist/CommodityCodeValue/mica",
-                "concept:gm2"
+                "concept:gm"
             ],
             "topConceptOf": "conceptscheme:hoofdnaam"
         },
@@ -3085,6 +3058,33 @@
             "semanticRelation": [
                 "http://inspire.ec.europa.eu/codelist/LithologyValue/clay",
                 "concept:kl"
+            ],
+            "topConceptOf": "conceptscheme:hoofdnaam"
+        },
+        {
+            "id": "concept:ko",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ko",
+            "closeMatch": [
+                "http://inspire.ec.europa.eu/codelist/LithologyValue/bituminousCoal",
+                "concept:ko"
+            ],
+            "definition": "Gesteente hoofdzakelijk bestaande uit organisch materiaal, gevormd na diepe begraving onder hoge druk en temperatuur.",
+            "exactMatch": [
+                "http://inspire.ec.europa.eu/codelist/LithologyValue/bituminousCoal",
+                "concept:ko"
+            ],
+            "inScheme": "conceptscheme:hoofdnaam",
+            "mappingRelation": [
+                "http://inspire.ec.europa.eu/codelist/LithologyValue/bituminousCoal",
+                "concept:ko"
+            ],
+            "notation": "KO",
+            "note": "Gesteente hoofdzakelijk bestaande uit organisch materiaal, gevormd na diepe begraving onder hoge druk en temperatuur.",
+            "prefLabel": "steenkool",
+            "semanticRelation": [
+                "http://inspire.ec.europa.eu/codelist/LithologyValue/bituminousCoal",
+                "concept:ko"
             ],
             "topConceptOf": "conceptscheme:hoofdnaam"
         },
@@ -4376,7 +4376,7 @@
                 "concept:he",
                 "concept:fe",
                 "concept:la",
-                "concept:gm2",
+                "concept:gm",
                 "concept:pm",
                 "concept:py",
                 "concept:qu",
@@ -4394,7 +4394,7 @@
                 "concept:tu",
                 "concept:ba",
                 "concept:at",
-                "concept:co2",
+                "concept:ko",
                 "concept:kb",
                 "concept:ka",
                 "concept:me",
@@ -4436,7 +4436,7 @@
                 "concept:lg",
                 "concept:ks",
                 "concept:ma",
-                "concept:gm",
+                "concept:ge",
                 "concept:mm",
                 "concept:ms",
                 "concept:my",

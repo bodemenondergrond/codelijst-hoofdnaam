@@ -97,10 +97,10 @@
     skos:mappingRelation <http://inspire.ec.europa.eu/codelist/CommodityCodeValue/laterite>, concept:la;
     skos:semanticRelation <http://inspire.ec.europa.eu/codelist/CommodityCodeValue/laterite>, concept:la.
 <http://inspire.ec.europa.eu/codelist/CommodityCodeValue/mica> a skos:Concept;
-    skos:closeMatch <http://inspire.ec.europa.eu/codelist/CommodityCodeValue/mica>, concept:gm2;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/CommodityCodeValue/mica>, concept:gm2;
-    skos:mappingRelation <http://inspire.ec.europa.eu/codelist/CommodityCodeValue/mica>, concept:gm2;
-    skos:semanticRelation <http://inspire.ec.europa.eu/codelist/CommodityCodeValue/mica>, concept:gm2.
+    skos:closeMatch <http://inspire.ec.europa.eu/codelist/CommodityCodeValue/mica>, concept:gm;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/CommodityCodeValue/mica>, concept:gm;
+    skos:mappingRelation <http://inspire.ec.europa.eu/codelist/CommodityCodeValue/mica>, concept:gm;
+    skos:semanticRelation <http://inspire.ec.europa.eu/codelist/CommodityCodeValue/mica>, concept:gm.
 <http://inspire.ec.europa.eu/codelist/CommodityCodeValue/pumice> a skos:Concept;
     skos:closeMatch <http://inspire.ec.europa.eu/codelist/CommodityCodeValue/pumice>, concept:pm;
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/CommodityCodeValue/pumice>, concept:pm;
@@ -163,10 +163,10 @@
     skos:mappingRelation concept:at;
     skos:semanticRelation concept:at.
 <http://inspire.ec.europa.eu/codelist/LithologyValue/bituminousCoal> a skos:Concept;
-    skos:closeMatch <http://inspire.ec.europa.eu/codelist/LithologyValue/bituminousCoal>, concept:co2;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/LithologyValue/bituminousCoal>, concept:co2;
-    skos:mappingRelation <http://inspire.ec.europa.eu/codelist/LithologyValue/bituminousCoal>, concept:co2;
-    skos:semanticRelation <http://inspire.ec.europa.eu/codelist/LithologyValue/bituminousCoal>, concept:co2.
+    skos:closeMatch <http://inspire.ec.europa.eu/codelist/LithologyValue/bituminousCoal>, concept:ko;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/LithologyValue/bituminousCoal>, concept:ko;
+    skos:mappingRelation <http://inspire.ec.europa.eu/codelist/LithologyValue/bituminousCoal>, concept:ko;
+    skos:semanticRelation <http://inspire.ec.europa.eu/codelist/LithologyValue/bituminousCoal>, concept:ko.
 <http://inspire.ec.europa.eu/codelist/LithologyValue/breccia> a skos:Concept;
     skos:closeMatch concept:kb;
     skos:mappingRelation concept:kb;
@@ -321,10 +321,10 @@
     skos:mappingRelation <http://inspire.ec.europa.eu/codelist/LithologyValue/marble>, concept:ma;
     skos:semanticRelation <http://inspire.ec.europa.eu/codelist/LithologyValue/marble>, concept:ma.
 <http://inspire.ec.europa.eu/codelist/LithologyValue/metamorphicRock> a skos:Concept;
-    skos:closeMatch <http://inspire.ec.europa.eu/codelist/LithologyValue/metamorphicRock>, concept:gm, concept:mm;
+    skos:closeMatch <http://inspire.ec.europa.eu/codelist/LithologyValue/metamorphicRock>, concept:ge, concept:mm;
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/LithologyValue/metamorphicRock>, concept:mm;
-    skos:mappingRelation <http://inspire.ec.europa.eu/codelist/LithologyValue/metamorphicRock>, concept:gm, concept:mm;
-    skos:semanticRelation <http://inspire.ec.europa.eu/codelist/LithologyValue/metamorphicRock>, concept:gm, concept:mm.
+    skos:mappingRelation <http://inspire.ec.europa.eu/codelist/LithologyValue/metamorphicRock>, concept:ge, concept:mm;
+    skos:semanticRelation <http://inspire.ec.europa.eu/codelist/LithologyValue/metamorphicRock>, concept:ge, concept:mm.
 <http://inspire.ec.europa.eu/codelist/LithologyValue/micaSchist> a skos:Concept;
     skos:closeMatch <http://inspire.ec.europa.eu/codelist/LithologyValue/micaSchist>, concept:ms;
     skos:exactMatch <http://inspire.ec.europa.eu/codelist/LithologyValue/micaSchist>, concept:ms;
@@ -625,18 +625,6 @@ concept:ch dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdn
     skos:prefLabel "chert (gebande)"@nl;
     skos:semanticRelation <http://inspire.ec.europa.eu/codelist/CommodityCodeValue/chert>, concept:ch, concept:vs;
     skos:topConceptOf conceptscheme:hoofdnaam.
-concept:co2 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.co2";
-    a skos:Concept;
-    skos:closeMatch <http://inspire.ec.europa.eu/codelist/LithologyValue/bituminousCoal>, concept:co2;
-    skos:definition "Gesteente hoofdzakelijk bestaande uit organisch materiaal, gevormd na diepe begraving onder hoge druk en temperatuur."@nl;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/LithologyValue/bituminousCoal>, concept:co2;
-    skos:inScheme conceptscheme:hoofdnaam;
-    skos:mappingRelation <http://inspire.ec.europa.eu/codelist/LithologyValue/bituminousCoal>, concept:co2;
-    skos:notation "CO2";
-    skos:note "Gesteente hoofdzakelijk bestaande uit organisch materiaal, gevormd na diepe begraving onder hoge druk en temperatuur."@nl;
-    skos:prefLabel "steenkool"@nl;
-    skos:semanticRelation <http://inspire.ec.europa.eu/codelist/LithologyValue/bituminousCoal>, concept:co2;
-    skos:topConceptOf conceptscheme:hoofdnaam.
 concept:co dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.co";
     a skos:Concept;
     skos:closeMatch <http://inspire.ec.europa.eu/codelist/LithologyValue/conglomerate>, concept:co;
@@ -823,6 +811,17 @@ concept:gd dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdn
     skos:prefLabel "granodioriet"@nl;
     skos:semanticRelation <http://inspire.ec.europa.eu/codelist/LithologyValue/granodiorite>, concept:gd;
     skos:topConceptOf conceptscheme:hoofdnaam.
+concept:ge dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ge";
+    a skos:Concept;
+    skos:closeMatch <http://inspire.ec.europa.eu/codelist/LithologyValue/metamorphicRock>;
+    skos:definition "Metamorf gesteente met goed ontwikkelde splijting."@nl;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:mappingRelation <http://inspire.ec.europa.eu/codelist/LithologyValue/metamorphicRock>;
+    skos:notation "GE";
+    skos:note "Metamorf gesteente met goed ontwikkelde splijting."@nl;
+    skos:prefLabel "gespleten metamorf"@nl;
+    skos:semanticRelation <http://inspire.ec.europa.eu/codelist/LithologyValue/metamorphicRock>;
+    skos:topConceptOf conceptscheme:hoofdnaam.
 concept:gg dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.gg";
     a skos:Concept;
     skos:closeMatch <http://inspire.ec.europa.eu/codelist/LithologyValue/gravel>;
@@ -869,28 +868,17 @@ concept:gl dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdn
     skos:prefLabel "glauconiet"@nl;
     skos:semanticRelation <http://inspire.ec.europa.eu/codelist/CommodityCodeValue/glauconite>, concept:gl;
     skos:topConceptOf conceptscheme:hoofdnaam.
-concept:gm2 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.gm2";
-    a skos:Concept;
-    skos:closeMatch <http://inspire.ec.europa.eu/codelist/CommodityCodeValue/mica>, concept:gm2;
-    skos:definition "Mica's, een groep van plaatvormige fylosilicaatmineralen."@nl;
-    skos:exactMatch <http://inspire.ec.europa.eu/codelist/CommodityCodeValue/mica>, concept:gm2;
-    skos:inScheme conceptscheme:hoofdnaam;
-    skos:mappingRelation <http://inspire.ec.europa.eu/codelist/CommodityCodeValue/mica>, concept:gm2;
-    skos:notation "GM2";
-    skos:note "Mica's, een groep van plaatvormige fylosilicaatmineralen."@nl;
-    skos:prefLabel "glimmers"@nl;
-    skos:semanticRelation <http://inspire.ec.europa.eu/codelist/CommodityCodeValue/mica>, concept:gm2;
-    skos:topConceptOf conceptscheme:hoofdnaam.
 concept:gm dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.gm";
     a skos:Concept;
-    skos:closeMatch <http://inspire.ec.europa.eu/codelist/LithologyValue/metamorphicRock>;
-    skos:definition "Metamorf gesteente met goed ontwikkelde splijting."@nl;
+    skos:closeMatch <http://inspire.ec.europa.eu/codelist/CommodityCodeValue/mica>, concept:gm;
+    skos:definition "Mica's, een groep van plaatvormige fylosilicaatmineralen."@nl;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/CommodityCodeValue/mica>, concept:gm;
     skos:inScheme conceptscheme:hoofdnaam;
-    skos:mappingRelation <http://inspire.ec.europa.eu/codelist/LithologyValue/metamorphicRock>;
+    skos:mappingRelation <http://inspire.ec.europa.eu/codelist/CommodityCodeValue/mica>, concept:gm;
     skos:notation "GM";
-    skos:note "Metamorf gesteente met goed ontwikkelde splijting."@nl;
-    skos:prefLabel "gespleten metamorf"@nl;
-    skos:semanticRelation <http://inspire.ec.europa.eu/codelist/LithologyValue/metamorphicRock>;
+    skos:note "Mica's, een groep van plaatvormige fylosilicaatmineralen."@nl;
+    skos:prefLabel "glimmers"@nl;
+    skos:semanticRelation <http://inspire.ec.europa.eu/codelist/CommodityCodeValue/mica>, concept:gm;
     skos:topConceptOf conceptscheme:hoofdnaam.
 concept:gn dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.gn";
     a skos:Concept;
@@ -1055,6 +1043,18 @@ concept:kl dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdn
     skos:note "Fijnkorrelig sediment waarvan de korrelgrootte kan verschillen al naar gelang de gevolgde classificatie:  kleiner dan 0.002 mm (ISO 14688/ISO 11277/Belgische bodemclassificatie/USDA soil classification), kleiner dan 0.004 mm (Udden-Wentworth)"@nl;
     skos:prefLabel "klei"@nl;
     skos:semanticRelation <http://inspire.ec.europa.eu/codelist/LithologyValue/clay>, concept:kl;
+    skos:topConceptOf conceptscheme:hoofdnaam.
+concept:ko dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.ko";
+    a skos:Concept;
+    skos:closeMatch <http://inspire.ec.europa.eu/codelist/LithologyValue/bituminousCoal>, concept:ko;
+    skos:definition "Gesteente hoofdzakelijk bestaande uit organisch materiaal, gevormd na diepe begraving onder hoge druk en temperatuur."@nl;
+    skos:exactMatch <http://inspire.ec.europa.eu/codelist/LithologyValue/bituminousCoal>, concept:ko;
+    skos:inScheme conceptscheme:hoofdnaam;
+    skos:mappingRelation <http://inspire.ec.europa.eu/codelist/LithologyValue/bituminousCoal>, concept:ko;
+    skos:notation "KO";
+    skos:note "Gesteente hoofdzakelijk bestaande uit organisch materiaal, gevormd na diepe begraving onder hoge druk en temperatuur."@nl;
+    skos:prefLabel "steenkool"@nl;
+    skos:semanticRelation <http://inspire.ec.europa.eu/codelist/LithologyValue/bituminousCoal>, concept:ko;
     skos:topConceptOf conceptscheme:hoofdnaam.
 concept:kr dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdnaam.kr";
     a skos:Concept;
@@ -1724,7 +1724,7 @@ concept:zs dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.hoofdn
     skos:topConceptOf conceptscheme:hoofdnaam.
 conceptscheme:hoofdnaam dc:identifier "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.hoofdnaam";
     a skos:ConceptScheme;
-    skos:hasTopConcept concept:ad, concept:ae, concept:af, concept:ah, concept:ak, concept:an, concept:ar, concept:as, concept:at, concept:av, concept:aw, concept:ba, concept:be, concept:bk, concept:bt, concept:ca, concept:ch, concept:co2, concept:co, concept:da, concept:dk, concept:dl, concept:do, concept:dr, concept:ev, concept:fe, concept:fg, concept:fo, concept:fs, concept:fy, concept:fz, concept:ga, concept:gb, concept:gd, concept:gg, concept:gh, concept:gi, concept:gl, concept:gm2, concept:gm, concept:gn, concept:gr, concept:gs, concept:gz, concept:ha, concept:he, concept:hk, concept:ht, concept:hu, concept:ig, concept:io, concept:ka, concept:kb, concept:kc, concept:kl, concept:kr, concept:ks, concept:kt, concept:kw, concept:kz, concept:la, concept:le, concept:lg, concept:li, concept:ls, concept:ma, concept:me, concept:mg, concept:mm, concept:ms, concept:my, concept:mz, concept:nu, concept:ok, concept:om, concept:pe, concept:pk, concept:pl, concept:pm, concept:ps, concept:pu, concept:py, concept:qu, concept:ro, concept:rv, concept:sc, concept:sd, concept:se, concept:sf, concept:sg, concept:sh, concept:si, concept:sk, concept:sl, concept:sn, concept:so, concept:sr, concept:ss, concept:st, concept:sx, concept:sy, concept:ta, concept:ts, concept:tu, concept:ve, concept:vg, concept:vs, concept:ws, concept:xg, concept:xx, concept:xz, concept:zl, concept:zs;
+    skos:hasTopConcept concept:ad, concept:ae, concept:af, concept:ah, concept:ak, concept:an, concept:ar, concept:as, concept:at, concept:av, concept:aw, concept:ba, concept:be, concept:bk, concept:bt, concept:ca, concept:ch, concept:co, concept:da, concept:dk, concept:dl, concept:do, concept:dr, concept:ev, concept:fe, concept:fg, concept:fo, concept:fs, concept:fy, concept:fz, concept:ga, concept:gb, concept:gd, concept:ge, concept:gg, concept:gh, concept:gi, concept:gl, concept:gm, concept:gn, concept:gr, concept:gs, concept:gz, concept:ha, concept:he, concept:hk, concept:ht, concept:hu, concept:ig, concept:io, concept:ka, concept:kb, concept:kc, concept:kl, concept:ko, concept:kr, concept:ks, concept:kt, concept:kw, concept:kz, concept:la, concept:le, concept:lg, concept:li, concept:ls, concept:ma, concept:me, concept:mg, concept:mm, concept:ms, concept:my, concept:mz, concept:nu, concept:ok, concept:om, concept:pe, concept:pk, concept:pl, concept:pm, concept:ps, concept:pu, concept:py, concept:qu, concept:ro, concept:rv, concept:sc, concept:sd, concept:se, concept:sf, concept:sg, concept:sh, concept:si, concept:sk, concept:sl, concept:sn, concept:so, concept:sr, concept:ss, concept:st, concept:sx, concept:sy, concept:ta, concept:ts, concept:tu, concept:ve, concept:vg, concept:vs, concept:ws, concept:xg, concept:xx, concept:xz, concept:zl, concept:zs;
     skos:prefLabel "lijst van hoofdnamen"@nl.
 <https://inspire.ec.europa.eu/codelist/LithologyValue/mud> a skos:Concept;
     skos:closeMatch concept:sl;

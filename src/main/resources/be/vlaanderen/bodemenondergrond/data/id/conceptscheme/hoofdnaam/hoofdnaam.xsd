@@ -100,7 +100,6 @@
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/hoofdnaam/ca" />
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/hoofdnaam/ch" />
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/hoofdnaam/co" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/hoofdnaam/co2" />
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/hoofdnaam/da" />
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/hoofdnaam/dk" />
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/hoofdnaam/dl" />
@@ -116,12 +115,12 @@
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/hoofdnaam/ga" />
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/hoofdnaam/gb" />
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/hoofdnaam/gd" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/hoofdnaam/ge" />
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/hoofdnaam/gg" />
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/hoofdnaam/gh" />
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/hoofdnaam/gi" />
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/hoofdnaam/gl" />
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/hoofdnaam/gm" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/hoofdnaam/gm2" />
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/hoofdnaam/gn" />
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/hoofdnaam/gr" />
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/hoofdnaam/gs" />
@@ -137,6 +136,7 @@
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/hoofdnaam/kb" />
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/hoofdnaam/kc" />
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/hoofdnaam/kl" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/hoofdnaam/ko" />
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/hoofdnaam/kr" />
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/hoofdnaam/ks" />
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/hoofdnaam/kt" />
